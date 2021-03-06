@@ -1,7 +1,7 @@
 import os
 import random
 '''
-transform in into lowercase txt
+transform into lowercase txt
 
 '''
 
