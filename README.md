@@ -1,4 +1,4 @@
-# tm_cw1
+# Textminig coursework 1
 
 
 ### We should be able to run your code to train a model by issuing the following command:
