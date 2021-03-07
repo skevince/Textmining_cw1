@@ -1,4 +1,7 @@
 import re
+from spacy.lang.en import English
+from spacy.pipeline import Sentencizer
+from spacy.tokenizer import Tokenizer
 import collections
 '''
 tokenisation the data
@@ -25,6 +28,14 @@ def preprocessdata (filename):
     else:
         print('ERROR: unkown token type ' + token)
 '''
+
+# nlp = English()
+# # Create a tokeniser with just the default vocabulary
+# tokenizer = Tokenizer(nlp.vocab)
+
+
+
+
 
 
 if __name__ == '__main__':
