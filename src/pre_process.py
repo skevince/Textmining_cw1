@@ -1,5 +1,9 @@
 import re
 import collections
+'''
+tokenisation the data
+
+'''
 
 
 def preprocessdata (filename):
@@ -13,12 +17,14 @@ def preprocessdata (filename):
     return train
 
 
-    '''if token == 'word':
+'''
+    if token == 'word':
         return [sentence.split(' ') for sentence in lines]
     #elif token == 'char':
         #return [list(sentence) for sentence in lines]
     else:
-        print('ERROR: unkown token type ' + token)'''
+        print('ERROR: unkown token type ' + token)
+'''
 
 
 if __name__ == '__main__':
