@@ -2,7 +2,7 @@ import re
 import collections
 
 
-def preprocessdata(filename):
+def preprocessdata (filename):
     train = []
     with open(filename, 'r', encoding='utf-8') as f:
         lines = [re.sub(' [^a-z] +', ' ', line.strip().lower()) for line in f]
@@ -21,5 +21,6 @@ def preprocessdata(filename):
         print('ERROR: unkown token type ' + token)'''
 
 
-trains = preprocessdata("coursework.txt")
-print(trains[0])
+if __name__ == '__main__':
+    trains = preprocessdata('.././data/train_5500.txt')
+    print(trains[0])
