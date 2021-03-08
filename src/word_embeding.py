@@ -14,10 +14,9 @@ def clean_stopwords(sentence):
     for word in sentence.split():
         if word in stopwords:
             new_sentence = re.sub(word, "", new_sentence)
-            new_sentence = re.sub(r"\s+", " ", new_sentence)
         if word.isdigit():
             new_sentence = re.sub(word, "", new_sentence)
-            new_sentence = re.sub(r"\s+", " ", new_sentence)
+    new_sentence = re.sub(r"\s+", " ", new_sentence)
     return new_sentence
 
 
