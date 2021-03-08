@@ -24,7 +24,7 @@ def clean_stopwords(sentence):
 
 def get_voc(filepath):
     vocabulary = {}
-    voc_set = set()
+    voc_set = []
     word_statistic = {}
     with open(filepath, 'r') as f:
         for line in f.readlines():
@@ -36,7 +36,7 @@ def get_voc(filepath):
                     word_statistic[word] = 1
             for word in word_statistic:
                 if word_statistic[word] > 3:
-                    voc_set.add(word)
+                    voc_set.append(word)
     for i in range(len(voc_set)):
         vocabulary[voc_set[i]] = i
     return vocabulary

@@ -24,12 +24,20 @@ stopping or hyperparameter tuning.
 def split(file_name, ratio):
     random.seed(1)
     ratio = ratio  # Set ratio
-    with open(file_name, 'r') as f1:
+    with open(file_name, 'r', encoding="utf8") as f1:
         lines = f1.readlines()
     random.shuffle(lines)  # random shuffle lines
     lines_split = int(len(lines) * ratio)
     open('.././data/train.txt', 'w').write(''.join(lines[:lines_split]))
     open('.././data/dev.txt', 'w').write(''.join(lines[lines_split:]))
+    with open('.././data/train.txt', 'r', encoding="utf8") as f2:
+        for line in f2.readlines():
+            if line in ['\n', ' ']:
+                line = line.strip(line)
+    with open('.././data/dev.txt', 'r', encoding="utf8") as f3:
+        for line in f3.readlines():
+            if line == '\n':
+                line = line.strip("\n")
 
 
 if __name__ == '__main__':

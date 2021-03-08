@@ -2,12 +2,12 @@ enty:animal what animals can live the longest without food ?
 desc:desc what happened to pepsi clear ?
 enty:veh what ill-fated craft was captained by ernst lehmann ?
 desc:def what is cabarnet sauvignon ?
-enty:cremat what shakespearean play featured shylock ?
-loc:country what country has the highest per capita consumption of cheese ?
+num:period how long do you have to pay back debt after claiming chapter 11 bankruptcy ?
+desc:manner how can people from ireland come to the u.s. , work , and then return to ireland ?
 enty:animal what kind of animal is babar ?
 enty:other what kind of education would you need to become an athletic trainer for the nfl ?
-num:date when did swimming become commonplace ?
-num:count how many blacks served in the vietnam war
+hum:ind what director made one silent and one sound version of the ten commandments ?
+desc:desc what is the origin of the term `` blue moon , '' and how often do they occur ?
 loc:other where can i get u.s. economic statistics ?
 enty:substance what is the only substance that gives food its `` taste '' when eaten ?
 hum:ind which of these are authors ?
@@ -25,7 +25,7 @@ enty:dismed what is a fear of drinking ?
 enty:cremat which is the most-used computer program ?
 loc:country what country boasts the southernmost point in continental europe ?
 enty:animal what kind of dog is scooby doo ?
-enty:cremat what shakespeare play opens with the line : `` now is the winter of our discontent.. . '' ?
+hum:gr what 's the name of pittsburgh 's baseball team ?
 num:count how many rows of sprocket holes does a roll of 35-millimeter film have ?
 hum:ind who gave abbie hoffman his first dose of lsd ?
 loc:other where do quality drinks begin ?
@@ -56,12 +56,12 @@ num:count how many cities are there in utah ?
 loc:other what famed wall supports the badaling turret ?
 desc:reason what causes rust ?
 desc:def what does palindromic mean ?
-loc:state what u.s. state includes the san juan islands ?
+desc:manner how do you find the area of a circle ?
 enty:color what color is an arctic fox in winter ?
 enty:cremat what british tv series featured emma peel ?
 loc:country what country are you visiting if you land at president duvalier airport ?
 hum:ind which is the only dick tracy villain to appear three times ?
-loc:country what is the country of origin for the name thomas ?
+hum:desc who was maria theresa ?
 num:money what is the average cost for four years of medical school ?
 enty:animal what was the name of betty boop 's dog ?
 enty:body what part of your body contains the corpus callosum ?
@@ -70,7 +70,7 @@ hum:ind what two historical figures , who fought each other in a famous battle ,
 desc:manner how do i start a web based business ?
 desc:reason why is microsoft 's windows 3 such a successful computer program ?
 desc:def what does storm wave mean in japanese ?
-hum:gr what company 's trademark was his master 's voice ?
+num:date when was the first stained glass window made ?
 enty:other what can communications satellites offer yachts ?
 desc:manner how do you stop junk snail mail ?
 num:date in which year was new zealand excluded from the anzus alliance ?
@@ -92,7 +92,7 @@ desc:def what is barnstorming ?
 desc:desc what is the root of all evil ?
 desc:def what is a ` borrow pit ' ?
 hum:ind who portrayed `` the man without a face '' in the movie of the same name ?
-enty:food what 's known as the queen of drinks ?
+loc:other what botanical marvel did nebuchadnezzar build ?
 enty:other what device provided a new way to listen to music in 1963 ?
 num:date when did mount st. helen last have a significant eruption ?
 hum:ind who is the most sexy celebrity ?
@@ -113,18 +113,18 @@ abbr:exp what is ram in the computer ?
 enty:color what two colors are you blind to if you suffer from protanopia ?
 enty:food what spice do chefs pay the most for ?
 loc:country what country is the largest diamond producer ?
-desc:desc what was the verdict in the 1925 trial of john t. scopes ?
+num:count how many feet more than 2 is the average height of the great wall of china ?
 loc:other where was the first restaurant ?
 loc:country what country boasts ismail 's palace and the palace of king farouk ?
 hum:ind what 's the name of tom sawyer 's aunt with whom he lives ?
 num:count what is the estimated total u.s. whitetail deer population ?
 desc:manner how did names come about ?
 num:count how many species of the great white shark are there ?
-desc:reason why are eggs supposed to be stored small end down ?
+num:date when did the art of quilting begin ?
 desc:def what is color ?
 loc:other what is the web address of the list of e-mail addresses of members of the house of representatives ?
-hum:desc who was maria theresa ?
-hum:ind who killed jfk ?
+desc:def what is nuclear proliferation ?
+num:period how old was george washington when he died ?
 loc:country what was the only country you were allowed to drive into israel from in 1979 ?
 desc:reason why is the word `` abbreviation '' so long ?
 num:count how much caffeine is in a 16 oz cup of coffee ?
@@ -133,7 +133,7 @@ num:money what is the current ticket fare from from cairo to barbados ?
 enty:other what determines the value of the pearl ?
 hum:ind who delivered his last newscast on march 6 , 1981 ?
 loc:other where are zebras most likely found ?
-hum:ind who followed up his first two underwater thrillers with the girl of the sea of cortez ?
+num:money how much did lucy van pelt originally charge for psychiatric sessions ?
 num:date when was the first successful heart transplant for a human ?
 num:count how many innings constitute an official baseball game ?
 enty:product what soap was touted as being `` for people who like people '' ?
@@ -165,7 +165,7 @@ enty:animal name the two mystical ravens odin has at his command .
 enty:other what is the one thing you need before you can purchase life insurance ?
 num:perc what percentage of american men are alcoholic ?
 enty:cremat what broadway show introduced the song some enchanted evening ?
-loc:country what country comes last in an alphabetical list ?
+loc:city what is the capital of california ?
 hum:ind what two presidents of the u.s. published books of poetry ?
 loc:other what tokyo street glitters with famed department stores and nightclubs ?
 num:count how many times larger than life size is the statue of liberty ?
@@ -181,17 +181,17 @@ desc:desc what steps can be taken to prevent diabetes ?
 num:volsize how big is a baby bald eagle ?
 loc:city what city did the mormons establish as their headquarters in 1847 ?
 enty:veh what ship did lloyd m. bucher command ?
-hum:ind who gave us the `` rolling writer '' ?
+hum:gr which police department made the all-time biggest cocaine bust in ventura county ?
 loc:country what country did king wenceslas rule ?
 desc:desc what is the daily requirement of folic acid for an expectant mother ?
 desc:manner how is silk screening done ?
-enty:sport what sport do the cleaveland cavaliers play ?
+num:count how many people live in chile ?
 enty:other what overalls are named for dungri , a suburb of bombay ?
 num:count how many months does a normal human pregnancy last ?
 num:period how long does it take for your blood to make one complete trip through the body ?
 desc:def what is `` cat scratch fever '' ?
 loc:other what is the us federal government website for standard industrial classification codes , sic , ?
-hum:ind who is the head of the world bank ?
+enty:food what 's the traditional drink at the kentucky derby ?
 loc:state what are all the southern states of the united states ?
 enty:food what is 55 times sweeter than cane sugar ?
 hum:gr what company sells the most greeting cards ?
@@ -199,11 +199,11 @@ desc:def what is a leper ?
 desc:desc what is the origin of the expression `` tout de suite '' ?
 enty:cremat what magazine gives us the cream , not the skim ?
 enty:other what is damage to business and government caused by bureaucracy ?
-hum:ind what famous actress made her first appearance on stage at the age of five in the year 191 as `` baby '' ?
-loc:other where can i buy a pony on the big island for my daughter ?
+desc:desc what do a diamond and lump of coal have in common ?
+loc:other where is erykah badu originally from ?
 enty:sport what card game has variations called canfield , klondike and spider ?
 hum:ind who developed the first polio vaccine ?
-enty:lang what is the primary language of the philippines ?
+num:dist how deep is a fathom ?
 loc:country what country saw the origin of the asian flu ?
 num:count how many electoral votes does it take to win presidency ?
 enty:other what does a philatelist collect ?
@@ -211,7 +211,7 @@ loc:other where can i find a `` fifth element '' screensaver ?
 loc:country what country has the best defensive position in the board game diplomacy ?
 desc:desc what is the main application of sodium hydrosulfite ?
 loc:other where is the danube ?
-num:period how long should you feed your puppy purina puppy chow ?
+num:count how many were in attendance at the last supper ?
 desc:manner how do you use an intranet ?
 desc:desc what is the origin of the word `` attic '' ?
 hum:gr what u.s. university boasts the largest library ?
@@ -231,7 +231,7 @@ hum:gr what culture developed the idea of potlatch ?
 loc:other what 's the most common street name in america ?
 desc:desc what is the weather like on the moon ?
 loc:city what russian city boasts the hermitage museum ?
-loc:state what is the nickname of pennsylvania ?
+enty:other what shape-shifting menace did rom come to earth to fight ?
 enty:cremat what daily newspaper will `` help you see clearer across the usa '' ?
 hum:gr what was the name of the confederate mounted guerrilla group with which jesse james and coleman younger had ridden ?
 desc:desc what excuse did the nato people give for hitting the chinese embassy ?
@@ -255,7 +255,7 @@ desc:def what was archy , and mehitabel ?
 desc:manner how does a hurricane form ?
 num:count how many fig newtons are there to the pound ?
 enty:product what product `` doubles your pleasure , doubles your fun '' ?
-hum:ind what is michael jackson 's father 's name ?
+loc:city what city is graced by the arch of titus ?
 loc:other where is the official `` zero '' of the sea level ?
 enty:veh what was the name of the u.s. navy gunboat in the film the sand pebbles ?
 loc:other what park contains firehole river and fairy falls ?
@@ -272,7 +272,7 @@ desc:desc what is the secret of the universe ?
 hum:ind what scottish poet penned to a mouse and to a louse ?
 num:money how much do drugs to treat tuberculosis cost ?
 enty:dismed what is a fear of machinery ?
-desc:manner how can i look up someone 's e-mail address on the internet ?
+num:date when did french revolutionaries storm the bastille ?
 num:count how many different kinds of ice cream are there ?
 desc:def what is false consciousness ?
 hum:gr what college produced the most winning super bowl quarterbacks ?
@@ -320,7 +320,7 @@ desc:reason what are cushman and wakefield known for ?
 desc:def what is a hyperlink ?
 abbr:abb what is the abbreviated form of the national bureau of investigation ?
 hum:ind what woman was time 's man of the year for 1952 ?
-num:date when did the art of quilting begin ?
+num:date what year was the setting for american graffiti ?
 hum:ind what comedienne upstaged dwight d. eisenhower 's first inauguration by giving birth to her first child ?
 hum:gr what company markets a shampoo `` for brunettes only '' ?
 desc:def what is a multiplexer ?
@@ -414,7 +414,7 @@ desc:reason why did europeans first come to australia and oceania ?
 num:count how many dots make up the symbol for `` because '' ?
 hum:ind who was the pride of the yankees ?
 desc:desc what are differences between 1980 and 1990 ?
-hum:ind what part did benjamin franklin play in the development of the newspaper in america ?
+enty:substance what materials did the three little pigs use to build their houses ?
 enty:product what shampoo prevents eczema , seborrhea , and psoriasis ?
 num:count how many logarithmic scales are there on a slide rule ?
 loc:country what country has declared one-fifth of its territory off-limits to russians ?
@@ -487,7 +487,7 @@ loc:state what u.s. state 's biggest lake is lake sam rayburn ?
 loc:other what former royal palace has served as a granary , prison , arsenal , leper colony , mint , telegraph station and whorehouse before becoming an art museum ?
 hum:gr who were the yankee 's frequent enemies ?
 enty:cremat what program do i need to run a .tbk file ?
-enty:other what did the forward-thinking simon brothers bakery of chicago insert into bagels to boost business ?
+hum:desc who is zebulon pike ?
 desc:def what is the definition of spamming ?
 loc:other in what county is eckley colorado ?
 loc:other what 's the name of the temple that is located near the capital city of laos ?
