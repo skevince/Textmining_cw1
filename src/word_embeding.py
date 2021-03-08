@@ -4,11 +4,10 @@ import random
 import torch.nn as nn
 
 
-
 def clean_stopwords(sentence):
     new_sentence = ''
     stopwords = set()
-    with open ('.././data/stopwords.txt', 'r') as f:
+    with open('.././data/stopwords.txt', 'r') as f:
         for stopword in f.readlines():
             stopwords.add(stopword)
     for word in sentence.split():
@@ -22,16 +21,16 @@ def get_voc(filepath):
     vocabulary = {}
     voc_set = set()
     word_statistic = {}
-    with open (filepath, 'r') as f:
+    with open(filepath, 'r') as f:
         for line in f.readlines():
             void_stopwords = clean_stopwords(line.split(" ", 1)[1])
             for word in void_stopwords.split():
                 if word in word_statistic:
-                    word_statistic[word] +=1
+                    word_statistic[word] += 1
                 else:
                     word_statistic[word] = 1
             for word in word_statistic:
-                if word_statistic[word]>3:
+                if word_statistic[word] > 3:
                     voc_set.add(word)
     for i in range(len(voc_set)):
         vocabulary[voc_set[i]] = i
@@ -40,7 +39,7 @@ def get_voc(filepath):
 
 def get_vector(filepath, vocabulary):
     vector = []
-    with open (filepath, 'r') as f:
+    with open(filepath, 'r') as f:
         for line in f.readlines():
             sentence = []
             void_stopwords = clean_stopwords(line.split(" ", 1)[1])
@@ -50,7 +49,7 @@ def get_vector(filepath, vocabulary):
     return vector
 
 
-def randomly_embedding(filepath,  dimension):
+def randomly_embedding(filepath, dimension):
     vocabulary = get_voc(filepath)
     vector = get_vector(filepath, vocabulary)
     torch.manual_seed(1)
@@ -63,9 +62,3 @@ def randomly_embedding(filepath,  dimension):
 if __name__ == '__main__':
     print("Randomly initialised word embeddings")
     initial_embedding = randomly_embedding('.././data/train.txt', 1000)
-
-
-
-
-
-
