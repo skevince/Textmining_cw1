@@ -22,11 +22,18 @@ def clean_stopwords(sentence):
 def get_voc(filepath):
     vocabulary = {}
     voc_set = set()
+    word_statistic = {}
     with open (filepath, 'r') as f:
         for line in f.readlines():
             void_stopwords = clean_stopwords(line.split(" ", 1)[1])
             for word in void_stopwords.split():
-                voc_set.add(word)
+                if word in word_statistic:
+                    word_statistic[word] +=1
+                else:
+                    word_statistic[word] = 1
+            for word in word_statistic:
+                if word_statistic[word]>3:
+                    voc_set.add(word)
     for i in range(len(voc_set)):
         vocabulary[voc_set[i]] = i
     return vocabulary
