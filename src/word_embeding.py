@@ -6,10 +6,11 @@ import torch.nn as nn
 
 def clean_stopwords(sentence):
     new_sentence = ''
-    stopwords = set()
+    stopwords = {}
     with open('.././data/stopwords.txt', 'r') as f:
         for stopword in f.readlines():
-            stopwords.add(stopword)
+            stopword = stopword.rstrip("\n")
+            stopwords.update(stopword)
     for word in sentence.split():
         if word in stopwords:
             if word.isdigit():
