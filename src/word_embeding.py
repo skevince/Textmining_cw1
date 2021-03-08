@@ -7,16 +7,18 @@ import torch.nn as nn
 def clean_stopwords(sentence):
     new_sentence = sentence
     stopwords = set()
-    with open('/Users/kai/Desktop/Textmining/tm_cw1/data/stopwords.txt', 'r') as f:
+    with open('.././data/stopwords.txt', 'r') as f:
         for stopword in f.readlines():
             stopword=stopword.rstrip("\n")
             stopwords.add(stopword)
     for word in sentence.split():
         if word in stopwords:
-            new_sentence = re.sub(word, "", new_sentence)
+            print(word)
+            new_sentence = new_sentence.replace(word, "")
         if word.isdigit():
-            new_sentence = re.sub(word, "", new_sentence)
+            new_sentence = new_sentence.replace(word, "")
     new_sentence = re.sub(r"\s+", " ", new_sentence)
+
     return new_sentence
 
 
