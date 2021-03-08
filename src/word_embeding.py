@@ -33,7 +33,19 @@ def get_voc(filepath):
 
 
 def get_vector(filepath, vocabulary):
-    sentence = []
+    vector = []
     with open (filepath, 'r') as f:
         for line in f.readlines():
+            sentence = []
+            void_stopwords = clean_stopwords(line.split(" ", 1)[1])
+            for word in void_stopwords.split():
+                sentence.append(vocabulary[word])
+            vector.append(sentence)
+    return vector
+
+
+if __name__ == '__main__':
+
+
+
 
