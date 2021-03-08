@@ -14,7 +14,8 @@ def clean_stopwords(sentence):
             stopwords.add(stopword)
     for word in sentence.split():
         if word in stopwords:
-            new_sentence = re.sub(word, '', sentence)
+            if word.isdigit():
+                new_sentence = re.sub(word, '', sentence)
     return new_sentence
 
 
@@ -25,3 +26,14 @@ def get_voc(filepath):
         for line in f.readlines():
             void_stopwords = clean_stopwords(line.split(" ", 1)[1])
             for word in void_stopwords.split():
+                voc_set.add(word)
+    for i in range(len(voc_set)):
+        vocabulary[voc_set[i]] = i
+    return vocabulary
+
+
+def get_vector(filepath, vocabulary):
+    sentence = []
+    with open (filepath, 'r') as f:
+        for line in f.readlines():
+
