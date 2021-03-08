@@ -3,7 +3,6 @@ import re
 import random
 import torch.nn as nn
 
-torch.manual_seed(1)
 
 
 def clean_stopwords(sentence):
@@ -51,7 +50,21 @@ def get_vector(filepath, vocabulary):
     return vector
 
 
+def randomly_embedding(filepath,  dimension):
+    vocabulary = get_voc(filepath)
+    vector = get_vector(filepath, vocabulary)
+    torch.manual_seed(1)
+    embedding = nn.Embedding(len(vocabulary), dimension)
+    label = torch.LongTensor(vector)
+    initialize = embedding(label)
+    return initialize
+
+
 if __name__ == '__main__':
+    print("Randomly initialised word embeddings")
+    embedding = randomly_embedding('.././data/train.txt', 1000)
+
+
 
 
 

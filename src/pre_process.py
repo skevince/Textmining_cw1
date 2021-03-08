@@ -34,10 +34,6 @@ def preprocessdata (filename):
 # tokenizer = Tokenizer(nlp.vocab)
 
 
-
-
-
-
 if __name__ == '__main__':
     trains = preprocessdata('.././data/train_5500.txt')
     print(trains[0])
