@@ -5450,4 +5450,3 @@ ENTY:currency What type of currency is used in China ?
 NUM:temp What is the temperature today ?
 NUM:temp What is the temperature for cooking ?
 ENTY:currency What currency is used in Australia ?
-
