@@ -11,11 +11,8 @@ def clean_stopwords(sentence):
         for stopword in f.readlines():
             stopword=stopword.rstrip("\n")
             stopwords.add(stopword)
-            print(stopwords)
     for word in sentence.split():
-        print(word)
         if word in stopwords:
-            print(word)
             if word.isdigit():
                 new_sentence = re.sub(word, '', sentence)
     return new_sentence
