@@ -13,7 +13,7 @@ def clean_stopwords(sentence):
             stopwords.add(stopword)
     for word in sentence.split():
         if word in stopwords:
-            print(word)
+            # print(word)
             new_sentence = new_sentence.replace(word, "")
         if word.isdigit():
             new_sentence = new_sentence.replace(word, "")
@@ -38,7 +38,8 @@ def get_voc(filepath):
                 if word_statistic[word] > 3:
                     voc_set.append(word)
     for i in range(len(voc_set)):
-        vocabulary[voc_set[i]] = i
+        vocabulary[voc_set[i]] = 0
+    print(vocabulary)
     return vocabulary
 
 
@@ -49,6 +50,7 @@ def get_vector(filepath, vocabulary):
             sentence = []
             void_stopwords = clean_stopwords(line.split(" ", 1)[1])
             for word in void_stopwords.split():
+                print(word)
                 sentence.append(vocabulary[word])
             vector.append(sentence)
     return vector
@@ -66,4 +68,5 @@ def randomly_embedding(filepath, dimension):
 
 if __name__ == '__main__':
     print("Randomly initialised word embeddings")
-    initial_embedding = randomly_embedding('.././data/train.txt', 1000)
+    initial_embedding = randomly_embedding('.././data/train_1.txt', 1000)
+

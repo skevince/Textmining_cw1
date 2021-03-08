@@ -1,5 +1,7 @@
 import os
 import random
+import torch
+import torch.utils
 '''
 transform into lowercase txt
 
@@ -28,16 +30,24 @@ def split(file_name, ratio):
         lines = f1.readlines()
     random.shuffle(lines)  # random shuffle lines
     lines_split = int(len(lines) * ratio)
-    open('.././data/train.txt', 'w').write(''.join(lines[:lines_split]))
-    open('.././data/dev.txt', 'w').write(''.join(lines[lines_split:]))
+    open('.././data/train.txt', 'w', encoding="utf8").write(''.join(lines[:lines_split]))
+    open('.././data/dev.txt', 'w', encoding="utf8").write(''.join(lines[lines_split:]))
     with open('.././data/train.txt', 'r', encoding="utf8") as f2:
         for line in f2.readlines():
-            if line in ['\n', ' ']:
-                line = line.strip(line)
+            line.strip("\n")
     with open('.././data/dev.txt', 'r', encoding="utf8") as f3:
         for line in f3.readlines():
-            if line == '\n':
-                line = line.strip("\n")
+            line.strip("\n")
+
+# with open('.././data/train_5500lowercase.txt', 'r', encoding="utf8") as f1:
+#     lines = f1.readlines()
+# # print(lines)
+# train_size = int(0.9 * len(lines))
+# test_size = len(lines) - train_size
+# train_dataset, test_dataset = torch.utils.data.random_split(lines, [train_size, test_size])
+# print(train_dataset, test_dataset)
+# open('.././data/train_1.txt', 'w', encoding="utf8").write(''.join(train_dataset))
+# open('.././data/dev_1.txt', 'w', encoding="utf8").write(''.join(test_dataset))
 
 
 if __name__ == '__main__':

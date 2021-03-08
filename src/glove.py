@@ -25,10 +25,16 @@ def read_glove_vecs(glove_file):
 
 def build_matrix(word_index, path):
     w, embedding_index = read_glove_vecs(path)
-    embedding_matrix = np.zeros((len(word_index), 50))
+    embedding_matrix = np.zeros((len(word_index), 300))
     for i in range(len(word_index)):
         try:
             embedding_matrix[i] = embedding_index[word_index[i]]
         except KeyError:
             pass
     return embedding_matrix
+
+sentence = ["king","man","woman","queen"]
+emb = build_matrix(sentence, ".././data/glove.small.txt")
+print(emb[1])
+print(emb[0]-emb[1]+emb[2])
+print(emb[3])
