@@ -34,4 +34,5 @@ def split(file_name, ratio):
 
 if __name__ == '__main__':
     lowercase_txt('.././data/train_5500.txt', '.././data/train_5500lowercase.txt')
+    lowercase_txt('.././data/TREC_10.txt', '.././data/test.txt')
     split('.././data/train_5500lowercase.txt', 0.9)
