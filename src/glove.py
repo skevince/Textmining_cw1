@@ -2,10 +2,10 @@ import numpy as np
 import torch
 import codecs
 
-file1 = open("coursework.txt")
+file1 = open(".././data/train.txt")
 textdata = file1.read()
 
-file2 = open("glove.6B.50d.txt", 'r', encoding='utf-8')
+file2 = open(".././data/glove.small.txt", 'r', encoding='utf-8')
 glovedata = file2.read()
 
 
