@@ -62,7 +62,7 @@ def randomly_embedding(filepath,  dimension):
 
 if __name__ == '__main__':
     print("Randomly initialised word embeddings")
-    embedding = randomly_embedding('.././data/train.txt', 1000)
+    initial_embedding = randomly_embedding('.././data/train.txt', 1000)
 
 
 
