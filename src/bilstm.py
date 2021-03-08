@@ -21,5 +21,3 @@ class BiLSTMTagger(nn.Module):
         encode, _ = self.lstm(embed)
         linear = self.hidden2tag(encode)
         return linear
-
-
