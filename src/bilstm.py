@@ -1,8 +1,14 @@
 from src.word_embeding import randomly_embedding
-
+import os
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
+
+
+if (os.cpu_count() > 8):
+    USE_CUDA = True
+else:
+    USE_CUDA = False
 
 
 class BiLSTMTagger(nn.Module):
