@@ -45,4 +45,4 @@ class BiLSTMTagger(nn.Module):
 
 
 if __name__ == '__mian__':
-    model = BiLSTMTagger(EMBEDDING_DIM, HIDDEN_DIM, lang.n_words, lang.n_tags)
+    model = BiLSTMTagger(200, HIDDEN_DIM, lang.n_words, lang.n_tags)
