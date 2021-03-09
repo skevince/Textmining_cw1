@@ -11,3 +11,4 @@ def bow(embeddingmatrix):
     bowvector = bowvector /n
     # print(bowvector)
     return bowvector
+

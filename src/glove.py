@@ -38,7 +38,7 @@ def build_matrix(word_index, path,freeze = True):
     weight = torch.FloatTensor(glove_vec)
     embedding = nn.Embedding.from_pretrained(weight,freeze= freeze)
     tensorlist = []
-    for i in range (len(word_index)):
+    for i in range(len(word_index)):
         if word_index[i] in w:
             tensorlist.append(w.index(word_index[i]))
 
