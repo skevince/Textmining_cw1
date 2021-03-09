@@ -1,1 +1,1 @@
-import torch
+from src.bilstm import BiLSTMTagger

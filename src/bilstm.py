@@ -25,7 +25,7 @@ class BiLSTMTagger(nn.Module):
 
     def get_state(self, input):
         """Get cell states and hidden states."""
-        batch_size = input.size(1)
+        batch_size = 20
         c0_encoder = torch.zeros(2, batch_size, self.hidden_dim // 2)
         h0_encoder = torch.zeros(2, batch_size, self.hidden_dim // 2)  ### * self.num_directions = 2 if bi
         if USE_CUDA:
@@ -42,3 +42,6 @@ class BiLSTMTagger(nn.Module):
         hidden = self.get_state(sentence)  # [m,b,e]
         lstm_out, self.hidden = self.lstm(embeds, hidden)
         return lstm_out
+
+
+if __name__ == '__mian__':
