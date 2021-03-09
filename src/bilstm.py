@@ -5,7 +5,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 
 
-if (os.cpu_count() > 8):
+if os.cpu_count() > 8:
     USE_CUDA = True
 else:
     USE_CUDA = False
@@ -24,10 +24,12 @@ class BiLSTMTagger(nn.Module):
         self.hidden2tag = nn.Linear(hidden_dim, tagset_size)
 
     def get_state(self, input):
-        """Get cell states and hidden states."""
+        '''
+        Get cell states and hidden states.
+        '''
         batch_size = 20
         c0_encoder = torch.zeros(2, batch_size, self.hidden_dim // 2)
-        h0_encoder = torch.zeros(2, batch_size, self.hidden_dim // 2)  ### * self.num_directions = 2 if bi
+        h0_encoder = torch.zeros(2, batch_size, self.hidden_dim // 2)  # * self.num_directions = 2 if bi
         if USE_CUDA:
             h0_encoder = h0_encoder.cuda()
             c0_encoder = c0_encoder.cuda()
@@ -41,8 +43,14 @@ class BiLSTMTagger(nn.Module):
 
         hidden = self.get_state(sentence)  # [m,b,e]
         lstm_out, self.hidden = self.lstm(embeds, hidden)
-        return lstm_out
+        if sentence_lengths:
+            lstm_out, _ = nn.utils.rnn.pad_packed_sequence(lstm_out, batch_first=False)
+
+        tag_space = self.hidden2tag(lstm_out.transpose(0, 1))
+        tag_scores = F.log_softmax(tag_space, dim=2)
+
+        return tag_scores
 
 
 if __name__ == '__mian__':
-    model = BiLSTMTagger(200, HIDDEN_DIM, lang.n_words, lang.n_tags)
+    model = BiLSTMTagger(200, 200, lang.n_words, lang.n_tags)
