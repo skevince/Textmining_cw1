@@ -53,4 +53,13 @@ class BiLSTMTagger(nn.Module):
 
 
 if __name__ == '__mian__':
-    model = BiLSTMTagger(200, 200, lang.n_words, lang.n_tags)
+    word_list, initial_embeding = randomly_embedding('.././data/train.txt', 1250)
+    Bilstm = BiLSTMTagger(380, 1000, 380, pretrain_char_embeding=initial_embeding)
+    filepath = '.././data/train.txt'
+    data=[]
+    seq_len=[]
+    with open(filepath, 'r') as f:
+        for line in f.readlines():
+            word_seg = []
+            data_pre = []
+            void_stopwords = line.split('', 1)[1]
