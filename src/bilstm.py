@@ -36,7 +36,8 @@ class BiLSTMTagger(nn.Module):
         return (h0_encoder, c0_encoder)
 
 
-    def forward(self, sentence, sentence_lengths):
+    def forward(self, sentence):
+        sentence_lengths = sentence.size(1)
         embeds = self.word_embeddings(sentence)
         embeds = self.embedding_dropout(embeds)
         embeds = nn.utils.rnn.pack_padded_sequence(embeds, sentence_lengths, batch_first=False)
@@ -63,3 +64,10 @@ if __name__ == '__mian__':
             word_seg = []
             data_pre = []
             void_stopwords = line.split('', 1)[1]
+            word_seg = void_stopwords.split()
+            for i in range(len(word_seg)):
+                data.append(word_list.index(word_seg[i]))
+            seq_len.append(len(word_seg))
+    print(data)
+    print(seq_len)
+    print(BiLSTMTagger)

@@ -2,6 +2,9 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
+import src.glove as glove
+import src.bow as Bow
+import src.pre_process as preprocess
 
 
 data = [("me gusta comer en la cafeteria".split(), "SPANISH"),
@@ -76,15 +79,13 @@ model = BoWClassifier(50, 300)
 
 # To run the model, pass in a BoW vector
 # Here we don't need to train, so the code is wrapped in torch.no_grad()
-import glove
-import Bow
-import preprocess
 
-lines = preprocess.Preprocessdata("coursework.txt")
+
+lines = preprocess.preprocessdata("coursework.txt")
 print(lines[0][2:])
 embedding = glove.build_matrix(lines[0][2:],'glove.small.txt')
 print(embedding)
-bowvector = Bow.Bow(embedding)
+bowvector = Bow.bow(embedding)
 
 with torch.no_grad():
     #sample = data[0]
