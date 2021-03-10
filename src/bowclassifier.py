@@ -81,9 +81,9 @@ model = BoWClassifier(50, 300)
 # Here we don't need to train, so the code is wrapped in torch.no_grad()
 
 
-lines = preprocess.preprocessdata("coursework.txt")
+lines = preprocess.preprocessdata('.././data/train.txt')
 print(lines[0][2:])
-embedding = glove.build_matrix(lines[0][2:],'glove.small.txt')
+embedding = glove.build_matrix(lines[0][2:],'.././data/glove.small.txt')
 print(embedding)
 bowvector = Bow.bow(embedding)
 

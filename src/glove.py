@@ -48,9 +48,9 @@ def build_matrix(word_index, path,freeze = True):
     print(type(embedding_matrix))
     return embedding_matrix
 
-#sentence = ["king","man","woman","queen"]
-#emb = build_matrix(sentence, 'glove.small.txt')
-#print(emb[1])
-#print(emb[0]-emb[1]+emb[2])
-#print(emb[3])
-#read_glove_vecs('glove.small.txt')
+sentence = ["king","man","woman","queen"]
+emb = build_matrix(sentence, '.././data/glove.small.txt')
+print(emb[1])
+print(emb[0]-emb[1]+emb[2])
+print(emb[3])
+read_glove_vecs('.././data/glove.small.txt')

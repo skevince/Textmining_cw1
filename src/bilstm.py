@@ -61,7 +61,7 @@ if __name__ == '__mian__':
     seq_len=[]
     with open(filepath, 'r') as f:
         for line in f.readlines():
-            word_seg = []
+            # word_seg = []
             data_pre = []
             void_stopwords = line.split('', 1)[1]
             word_seg = void_stopwords.split()
