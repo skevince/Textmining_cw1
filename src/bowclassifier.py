@@ -5,6 +5,7 @@ import torch.optim as optim
 import src.glove as glove
 import src.bow as Bow
 import src.pre_process as preprocess
+import
 
 
 data = [("me gusta comer en la cafeteria".split(), "SPANISH"),
