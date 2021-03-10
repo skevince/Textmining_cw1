@@ -46,10 +46,10 @@ class BiLSTMTagger(nn.Module):
         if sentence_lengths:
             lstm_out, _ = nn.utils.rnn.pad_packed_sequence(lstm_out, batch_first=False)
 
-        tag_space = self.hidden2tag(lstm_out.transpose(0, 1))
-        tag_scores = F.log_softmax(tag_space, dim=2)
+        # tag_space = self.hidden2tag(lstm_out.transpose(0, 1))
+        # tag_scores = F.log_softmax(tag_space, dim=2)
 
-        return tag_scores
+        return lstm_out
 
 
 if __name__ == '__mian__':
