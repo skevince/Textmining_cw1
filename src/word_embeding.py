@@ -8,7 +8,7 @@ np.set_printoptions(threshold=np.inf)
 def clean_stopwords(sentence):
     new_sentence = sentence
     stopwords = set()
-    with open('D://Users\AW\Documents\GitHub\Textmining_cw1/data/stopwords.txt', 'r') as f:
+    with open('../data/stopwords.txt', 'r') as f:
         for stopword in f.readlines():
             stopword = stopword.rstrip("\n")
             stopwords.add(stopword)

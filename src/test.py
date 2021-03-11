@@ -14,6 +14,8 @@ path_train = config[ "PATH" ][ "path_train" ]
 path_dev = config[ "PATH" ][ "path_dev" ]
 path_test = config[ "PATH" ][ "path_test" ]
 
+print(path_train)
+print(path_dev)
 
 # parser = argparse.ArgumentParser(description='manual to this script')
 # parser.add_argument('--config', help='The path of the configuration file',type=str, default='.././data/Bag_of_words.config')
