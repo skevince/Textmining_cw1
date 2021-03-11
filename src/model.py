@@ -25,7 +25,8 @@ class Model(nn.Module):
         else:
             self.word_embeddings = nn.Embedding(self.vocabulary_size, self.embedding_dim,
                                                 padding_idx=vocabulary_size - 1)
-        if if_biLSTM:
+
+        if if_biLSTM==True:
             self.lstm = nn.LSTM(self.embedding_dim, self.hidden_dim, bidirectional=True)
             self.fc1 = nn.Linear(self.hidden_dim * 2, 4000)
         else:
@@ -45,18 +46,19 @@ class Model(nn.Module):
         _, idx_unsort = torch.sort(idx_sort)  # 排序后，原序列的 index
         out = torch.index_select(out, 0, idx_sort)
         seq_len = list(seq_len[idx_sort])
-        if self.if_biLSTM:
+        if self.if_biLSTM==True:
             out = nn.utils.rnn.pack_padded_sequence(out, seq_len, batch_first=True)
             out, (hn, _) = self.lstm(out)
             out, _ = nn.utils.rnn.pad_packed_sequence(out, batch_first=True)
         out = torch.sum(out, dim=1)
         seq_len = torch.FloatTensor(seq_len)
-        seq_len = seq_len.reshape([32, 1])
-        if self.if_biLSTM:
-            seq_len = seq_len.expand([32, self.hidden_dim * 2])
+        seq_len = seq_len.reshape([x.shape[0], 1])
+        if self.if_biLSTM==True:
+            seq_len = seq_len.expand([x.shape[0], self.hidden_dim * 2])
         else:
-            seq_len = seq_len.expand([32, self.embedding_dim])
-        seq_len = seq_len.to(self.device)
+            seq_len = seq_len.expand([x.shape[0], self.embedding_dim])
+        if self.device != None:
+            seq_len = seq_len.to(self.device)
         out = torch.div(out, seq_len)
         out = self.fc1(out)
         out = self.relu_1(out)

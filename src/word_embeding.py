@@ -8,7 +8,7 @@ np.set_printoptions(threshold=np.inf)
 def clean_stopwords(sentence):
     new_sentence = sentence
     stopwords = set()
-    with open('../data/stopwords.txt', 'r') as f:
+    with open('D://Users\AW\Documents\GitHub\Textmining_cw1/data/stopwords.txt', 'r') as f:
         for stopword in f.readlines():
             stopword = stopword.rstrip("\n")
             stopwords.add(stopword)
@@ -36,7 +36,7 @@ def randomly_embedding(filepath):
                     word_statistic[word] = 1
     for word in word_statistic:
         wordlist.append(word)
-        if word_statistic[word] > 8:
+        if word_statistic[word] > 10:
             vocabulary.append(word)
     vocabulary.append('PAD')
     return wordlist, vocabulary
