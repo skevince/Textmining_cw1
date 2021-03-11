@@ -1,6 +1,6 @@
 from src.word_embeding import randomly_embedding
 from src.glove import read_glove_vecs
-from src.bilstm import BiLSTMTagger
+from src.model import Model
 import numpy as np
 import torch
 from torch.utils.data import DataLoader, TensorDataset
@@ -11,7 +11,6 @@ import torch.nn.functional as F
 
 def get_pad_size(filepath):
     seq_len = []
-
     with open(filepath, 'r') as f:
         for line in f.readlines():
             void_stopwords = line.split(" ", 1)[1]
@@ -21,15 +20,14 @@ def get_pad_size(filepath):
     pad_size = max(seq_len)
     return pad_size
 
-
-def read_data(filepath, pad_size,label_list=None):
+def read_data(filepath, pad_size,word_list,label_list=None):
     data = []
     seq_len = []
     label = []
-    if label_list==None:
+    if label_list == None:
         label_list = []
     else:
-        label_list=label_list
+        label_list = label_list
     with open(filepath, 'r') as f:
         for line in f.readlines():
             data_pre = []
@@ -62,9 +60,51 @@ def read_data(filepath, pad_size,label_list=None):
     label = torch.LongTensor(label)
     return data, seq_len, label, label_list
 
+def build_model_and_dataset(if_glove, if_biLSTM, if_freeze,batch_size):
+    print('if_glove:', if_glove, ' if_biLSTM: ', if_biLSTM, ' if_freeze: ', if_freeze)
+    path_glove = '.././data/glove.small.txt'
+    path_train = '.././data/train.txt'
+    path_dev = '.././data/dev.txt'
+    path_test = '.././data/test.txt'
+
+    if if_glove:
+        word_list, vector = read_glove_vecs(path_glove)
+        embedding_dim = vector[0].shape[0]
+    else:
+
+        word_list, vector = randomly_embedding(path_train)
+        embedding_dim = len(vector)
+
+    pad_size = get_pad_size(path_train)
+    data_train, seq_len_train, label_train, label_list = read_data(path_train, pad_size=pad_size,word_list=word_list)
+    class_number = len(label_list)
+
+    model = Model(vocabulary_size=len(word_list), embedding_dim=embedding_dim, hidden_dim=1000,
+                  num_classes=class_number, pretrain_char_embedding=vector,
+                  if_glove=if_glove, if_biLSTM=if_biLSTM, freeze=if_freeze, device=device)
+
+    batch_size = batch_size
+
+    trainset = TensorDataset(data_train, seq_len_train, label_train)
+    traindataloader = DataLoader(trainset, batch_size=batch_size, shuffle=True, sampler=None, num_workers=0,
+                                 pin_memory=True,
+                                 drop_last=True)
+
+    data_dev, seq_len_dev, label_dev, class_number_dev = read_data(path_dev, pad_size=pad_size, label_list=label_list,word_list=word_list)
+    devset = TensorDataset(data_dev, seq_len_dev, label_dev)
+    devdataloader = DataLoader(devset, batch_size=batch_size, shuffle=True, sampler=None, num_workers=0,
+                               pin_memory=True,
+                               drop_last=True)
+
+    data_test, seq_len_test, label_test, class_number_test = read_data(path_test, pad_size=pad_size, label_list=label_list,word_list=word_list)
+    testset = TensorDataset(data_test, seq_len_test, label_test)
+    testdataloader = DataLoader(testset, batch_size=batch_size, shuffle=True, sampler=None, num_workers=0,
+                                pin_memory=True,
+                                drop_last=True)
+    return model, traindataloader, devdataloader, testdataloader
+
 
 if __name__ == '__main__':
-    path_glove = '.././data/glove.small.txt'
     path_train = '.././data/train.txt'
     embedding = 'glove'
     ngpu = 1
@@ -72,53 +112,21 @@ if __name__ == '__main__':
     device = torch.device("cuda:0" if (torch.cuda.is_available() and ngpu > 0) else "cpu")
     print(device)
     print(torch.cuda.get_device_name(0))
-    label_list=[]
-    if embedding == 'glove':
-        print(embedding)
-        # 获取word_list, vector
-        word_list, vector = read_glove_vecs(path_glove)
-        embedding_dim = vector[0].shape[0]
-        filepath = '.././data/train.txt'
-        pad_size = get_pad_size(filepath)
-        data, seq_len, label, label_list = read_data(filepath, pad_size=pad_size)
-        class_number = len(label_list)
-        BiLstm = BiLSTMTagger(vocabulary_size=len(word_list), embedding_dim=embedding_dim, hidden_dim=150,
-                              num_classes=class_number,
-                              pretrain_char_embedding=vector, pre=True, freeze=True,device=device)
-    else:
-        print(embedding)
-        # 获取word_list, embedding_dim  这里的vector是出现次数>n次的词，取其长度为embedding维度
-        word_list, vector = randomly_embedding(path_train)
-        embedding_dim = len(vector)
-        filepath = '.././data/train.txt'
-        pad_size = get_pad_size(filepath)
-        print(pad_size)
-        data, seq_len, label, label_list = read_data(filepath, pad_size=pad_size)
-        class_number = len(label_list)
-        BiLstm = BiLSTMTagger(vocabulary_size=len(word_list), embedding_dim=embedding_dim, hidden_dim=1000,
-                              num_classes=class_number,
-                              pre=False, freeze=False,device=device)
+    batch_size=32
+    model, traindataloader, devdataloader, testdataloader = build_model_and_dataset(if_glove=False, if_biLSTM=False,
+                                                                                    if_freeze=True,batch_size=batch_size)
+    model = model.to(device)
 
-    BiLstm = BiLstm.to(device)
-    batch_size = 32
-    trainset = TensorDataset(data, seq_len, label)
-    traindataloader = DataLoader(trainset, batch_size=batch_size, shuffle=True, sampler=None, num_workers=0,
-                                 pin_memory=True,
-                                 drop_last=True)
-
-    testfilepath='.././data/test.txt'
-    data1, seq_len1, label1, class_number1 = read_data(testfilepath, pad_size=pad_size,label_list=label_list)
-    testset = TensorDataset(data1, seq_len1, label1)
-    testdataloader = DataLoader(testset, batch_size=batch_size, shuffle=True, sampler=None, num_workers=0,
-                                 pin_memory=True,
-                                 drop_last=True)
     criterion = nn.CrossEntropyLoss()
     criterion = criterion.cuda()
-    optimizer = optim.SGD(BiLstm.parameters(), lr=0.01, momentum=0.9)
-    #optimizer = torch.optim.Adam(BiLstm.parameters(), lr=0.01, weight_decay=1e-5)
-    for epoch in range(15):
-        BiLstm.train()
-        print(epoch)
+    optimizer = optim.SGD(model.parameters(), lr=0.01, momentum=0.9)
+    # optimizer = torch.optim.Adam(model.parameters(), lr=0.01, weight_decay=1e-5)
+
+    loss_function = nn.NLLLoss()
+
+    for epoch in range(10):
+        model.train()
+        print(epoch+1)
         acc = []
         train_loss = []
         running_loss = 0.0
@@ -133,10 +141,9 @@ if __name__ == '__main__':
             optimizer.zero_grad()  #
 
             # forward + backward + optimize
-            outputs,idx_sort = BiLstm(data, seq_len)
-            labels=labels[idx_sort]
-            #print(outputs)
-            loss = F.cross_entropy(outputs, labels)  # 计算loss
+            outputs, idx_sort = model(data, seq_len)
+            labels = labels[idx_sort]
+            loss = loss_function(outputs, labels)  # 计算loss
             loss.backward()  # loss 求导
             optimizer.step()  # 更新参数
 
@@ -151,9 +158,8 @@ if __name__ == '__main__':
             correct = 0.0
         print('train-- loss: ', np.average(train_loss), ' acc: ', np.average(acc))
 
-
-        #test
-        BiLstm.eval()
+        # test
+        model.eval()
 
         acc = []
         train_loss = []
@@ -169,7 +175,7 @@ if __name__ == '__main__':
             optimizer.zero_grad()  #
 
             # forward + backward + optimize
-            outputs, idx_sort = BiLstm(data, seq_len)
+            outputs, idx_sort = model(data, seq_len)
             labels = labels[idx_sort]
             # print(outputs)
             loss = F.cross_entropy(outputs, labels)  # 计算loss
@@ -183,4 +189,3 @@ if __name__ == '__main__':
             running_loss = 0.0
             correct = 0.0
         print('test-- loss: ', np.average(train_loss), ' acc: ', np.average(acc))
-

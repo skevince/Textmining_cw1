@@ -14,6 +14,7 @@ class BiLSTMTagger(nn.Module):
         super(BiLSTMTagger, self).__init__()
         self.device=device
         self.hidden_dim = hidden_dim
+        self.num_classes=num_classes
         if pre == True:
             self.word_embeddings = nn.Embedding.from_pretrained(pretrain_char_embedding, freeze=freeze)
         else:
@@ -26,7 +27,7 @@ class BiLSTMTagger(nn.Module):
         self.relu_2 = nn.ReLU(inplace=True)
         self.dropout2 = nn.Dropout(p=0.5)
         self.fc3 = nn.Linear(2000,num_classes)
-
+        self.softmax=nn.Softmax(dim=1)
     def forward(self, x, seq_len):
 
         out = self.word_embeddings(x)
@@ -51,5 +52,5 @@ class BiLSTMTagger(nn.Module):
         out = self.relu_2(out)
         out = self.dropout1(out)
         out = self.fc3(out)
-
+        out = F.log_softmax(out, dim=1)
         return out,idx_sort
