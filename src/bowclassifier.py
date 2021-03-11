@@ -95,3 +95,5 @@ with torch.no_grad():
     bowvector = torch.unsqueeze(bowvector, 0)
     log_probs = model(bowvector)
     print(log_probs)
+
+
