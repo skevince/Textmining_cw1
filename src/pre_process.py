@@ -34,19 +34,6 @@ def preprocessdata (filename):
 # tokenizer = Tokenizer(nlp.vocab)
 
 
-def get_label(filepath):
-    '''
-    get the label of sentences
-    :param filepath: the path of file
-    :return: label
-    '''
-    label=[]
-    with open (filepath, 'r') as f:
-        for line in f.readlines():
-            label.append(line.split(' ', 1)[0])
-    return label
-
-
 if __name__ == '__main__':
     trains = preprocessdata('.././data/train_5500.txt')
     print(trains[0])

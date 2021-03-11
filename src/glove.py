@@ -19,38 +19,29 @@ def read_glove_vecs(glove_file):
             words.append(curr_word)
             word_to_vec_map[curr_word] = np.array(line[1:], dtype=np.float64)
 
-
-    #print(words.index('a'))
-    #print(word_to_vec_map['a'].shape)
-    #wordlist = list(words)
-    #print(words[0])
-    #print(glove_vector[0])
     lowerwords = [x.lower() for x in words]
-    return lowerwords, word_to_vec_map,glove_vector
+    return lowerwords, torch.FloatTensor(glove_vector)
 
 
 def build_matrix(word_index, path,freeze = True):
     w, embedding_index,glove_vec= read_glove_vecs(path)
     #wordlist = list(w)
     vocabulary_size = len(w)
+    vocabulary_dim = glove_vec[0].shape[0]
+    print(vocabulary_dim)
     vocabulary_dim = embedding_index['a'].shape[0]
-    embedding = nn.Embedding(vocabulary_size, vocabulary_dim)
+    print(vocabulary_dim)
+    embedding = nn.Embedding(vocabulary_size, vocabulary_dim,padding_idx= len(w)-1)
     weight = torch.FloatTensor(glove_vec)
-    embedding = nn.Embedding.from_pretrained(weight,freeze= freeze)
+    embedding = embedding.from_pretrained(weight,freeze= freeze)
     tensorlist = []
-    for i in range(len(word_index)):
+    for i in range (len(word_index)):
         if word_index[i] in w:
             tensorlist.append(w.index(word_index[i]))
+        #if word_index[i] not in w:
+            #tensorlist.append(len(w)-1)
 
     input = torch.LongTensor(tensorlist)
     embedding_matrix = embedding(input)
-
-    print(type(embedding_matrix))
     return embedding_matrix
 
-sentence = ["king","man","woman","queen"]
-emb = build_matrix(sentence, '.././data/glove.small.txt')
-print(emb[1])
-print(emb[0]-emb[1]+emb[2])
-print(emb[3])
-read_glove_vecs('.././data/glove.small.txt')
