@@ -64,14 +64,14 @@ def test(glove=False, biLSTM=False, freeze=False):
                                                                                     if_freeze=freeze,
                                                                                     batch_size=batch_size,
                                                                                     device=device)
-    # if if_GPU:
-    #     model = model.to(device)
-    # prediction, test_loss, test_acc = model_run(model, run_type='Test', batch_size=1,
-    #                                             device=device, dataloader=testdataloader)
-    # print(len(prediction))
-    # print(test_loss)
-    # print('test_accuracy：', test_acc)
-    # return
+    if if_GPU:
+        model = model.to(device)
+    prediction, test_loss, test_acc = model_run(model, run_type='Test', batch_size=1,
+                                                device=device, dataloader=testdataloader)
+    print(len(prediction))
+    print(test_loss)
+    print('test_accuracy：', test_acc)
+    return
 
 
 # if __name__ == '__main__':

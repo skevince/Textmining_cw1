@@ -2,7 +2,7 @@ import torch
 import random
 from configparser import ConfigParser
 import argparse
-from src.main import train, test
+# from src.main import train, test
 
 
 torch.manual_seed(1)
