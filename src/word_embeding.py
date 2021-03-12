@@ -1,14 +1,16 @@
 import re
 import numpy as np
 import random
+from src.question_classifier import get_config
 
 np.set_printoptions(threshold=np.inf)
 
 
 def clean_stopwords(sentence):
+    path_stopwords = get_config('PATH','path_stopwords')
     new_sentence = sentence
     stopwords = set()
-    with open('D://Users\AW\Documents\GitHub\Textmining_cw1/data/stopwords.txt', 'r') as f:
+    with open(path_stopwords, 'r') as f:
         for stopword in f.readlines():
             stopword = stopword.rstrip("\n")
             stopwords.add(stopword)

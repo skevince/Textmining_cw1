@@ -2,7 +2,8 @@ import os
 import random
 import torch
 import torch.utils
-from src.question_classifier import config
+import argparse
+from src.question_classifier import get_config
 '''
 transform into lowercase txt
 
@@ -24,7 +25,7 @@ stopping or hyperparameter tuning.
 '''
 
 
-def split(file_name, ratio):
+def split(file_name, ratio, path_train, path_dev):
     random.seed(1)
     ratio = ratio  # Set ratio
     with open(file_name, 'r', encoding="utf8") as f1:
@@ -40,24 +41,16 @@ def split(file_name, ratio):
         for line in f3.readlines():
             line.strip("\n")
 
-# with open('.././data/train_5500lowercase.txt', 'r', encoding="utf8") as f1:
-#     lines = f1.readlines()
-# # print(lines)
-# train_size = int(0.9 * len(lines))
-# test_size = len(lines) - train_size
-# train_dataset, test_dataset = torch.utils.data.random_split(lines, [train_size, test_size])
-# print(train_dataset, test_dataset)
-# open('.././data/train_1.txt', 'w', encoding="utf8").write(''.join(train_dataset))
-# open('.././data/dev_1.txt', 'w', encoding="utf8").write(''.join(test_dataset))
+
 
 
 if __name__ == '__main__':
-    original_file = config.get('PATH','original_file')
-    original_testfile = config.get('PATH','original_testfile')
-    path_train = config.get('PATH', 'path_train')
-    path_dev = config.get('PATH', 'path_dev')
-    path_test = config.get('PATH', 'path_test')
+    original_file = get_config('PATH','original_file')
+    original_testfile = get_config('PATH','original_testfile')
+    path_train = get_config('PATH', 'path_train')
+    path_dev = get_config('PATH', 'path_dev')
+    path_test = get_config('PATH', 'path_test')
 
     lowercase_txt(original_file, '.././data/train_5500lowercase.txt')
-    lowercase_txt(original_testfile, '.././data/test.txt')
-    split('.././data/train_5500lowercase.txt', 0.9)
+    lowercase_txt(original_testfile, path_test)
+    split('.././data/train_5500lowercase.txt', 0.9, path_train, path_dev)
