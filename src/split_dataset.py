@@ -2,7 +2,7 @@ import os
 import random
 import torch
 import torch.utils
-
+from src.question_classifier import config
 '''
 transform into lowercase txt
 
@@ -31,12 +31,12 @@ def split(file_name, ratio):
         lines = f1.readlines()
     random.shuffle(lines)  # random shuffle lines
     lines_split = int(len(lines) * ratio)
-    open('.././data/train.txt', 'w', encoding="utf8").write(''.join(lines[:lines_split]))
-    open('.././data/dev.txt', 'w', encoding="utf8").write(''.join(lines[lines_split:]))
-    with open('.././data/train.txt', 'r', encoding="utf8") as f2:
+    open(path_train, 'w', encoding="utf8").write(''.join(lines[:lines_split]))
+    open(path_dev, 'w', encoding="utf8").write(''.join(lines[lines_split:]))
+    with open(path_train, 'r', encoding="utf8") as f2:
         for line in f2.readlines():
             line.strip("\n")
-    with open('.././data/dev.txt', 'r', encoding="utf8") as f3:
+    with open(path_dev, 'r', encoding="utf8") as f3:
         for line in f3.readlines():
             line.strip("\n")
 
@@ -52,6 +52,12 @@ def split(file_name, ratio):
 
 
 if __name__ == '__main__':
-    lowercase_txt('.././data/train_5500.txt', '.././data/train_5500lowercase.txt')
-    lowercase_txt('.././data/TREC_10.txt', '.././data/test.txt')
+    original_file = config.get('PATH','original_file')
+    original_testfile = config.get('PATH','original_testfile')
+    path_train = config.get('PATH', 'path_train')
+    path_dev = config.get('PATH', 'path_dev')
+    path_test = config.get('PATH', 'path_test')
+
+    lowercase_txt(original_file, '.././data/train_5500lowercase.txt')
+    lowercase_txt(original_testfile, '.././data/test.txt')
     split('.././data/train_5500lowercase.txt', 0.9)

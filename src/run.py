@@ -7,6 +7,7 @@ from torch.utils.data import DataLoader, TensorDataset
 import torch.nn as nn
 import torch.optim as optim
 from src.process import processfile
+from src.question_classifier import config
 
 
 def get_pad_size(filepath):
@@ -64,11 +65,11 @@ def read_data(filepath, pad_size, word_list, label_list=None):
 
 def build_model_and_dataset(if_glove, if_biLSTM, if_freeze, batch_size, device):
     print('if_glove:', if_glove, ' if_biLSTM: ', if_biLSTM, ' if_freeze: ', if_freeze)
-    path_glove = '.././data/glove.small.txt'
+    path_glove = config.get('PATH','path_stopwords')
 
-    path_train = '.././data/train.txt'
-    path_dev = '.././data/dev.txt'
-    path_test = '.././data/test.txt'
+    path_train = config.get('PATH','path_train')
+    path_dev = config.get('PATH','path_dev')
+    path_test = config.get('PATH','path_test')
 
     processfile(path_train, '.././data/train_precess.txt')
     processfile(path_dev, '.././data/dev_precess.txt')
@@ -119,7 +120,9 @@ def build_model_and_dataset(if_glove, if_biLSTM, if_freeze, batch_size, device):
 def model_run(model, run_type=None, epoch_range=0, batch_size=1, device=None, dataloader=None):
     if run_type == 'Train' or run_type == 'Develop':
         model.train()
-        optimizer = optim.SGD(model.parameters(), lr=0.01, momentum=0.9)
+        lr = config.get('Model','lr_param')
+        momentum = config.get('Model','momentum')
+        optimizer = optim.SGD(model.parameters(), lr=lr, momentum=momentum)
         train_loss = []
         train_acc = []
         for epoch in range(epoch_range):

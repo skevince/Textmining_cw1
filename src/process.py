@@ -1,7 +1,12 @@
+from src.question_classifier import config
+
+
+path_stopwords = config.get('PATH','path_stopwords')
+
 
 def processfile (filename,outfilename):
     stopwords = set()
-    with open('.././data/stopwords_1.txt', 'r') as f:
+    with open(path_stopwords, 'r') as f:
         for stopword in f.readlines():
             stopword = stopword.rstrip("\n")
             stopwords.add(stopword)
