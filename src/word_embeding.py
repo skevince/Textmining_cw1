@@ -1,13 +1,13 @@
 import re
 import numpy as np
 import random
-from src.question_classifier import get_config
+import question_classifier
 
 np.set_printoptions(threshold=np.inf)
 
 
 def clean_stopwords(sentence):
-    path_stopwords = get_config('PATH','path_stopwords')
+    path_stopwords = question_classifier.get_config('PATH','path_stopwords')
     new_sentence = sentence
     stopwords = set()
     with open(path_stopwords, 'r') as f:

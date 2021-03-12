@@ -1,4 +1,4 @@
-from src.word_embeding import randomly_embedding
+from word_embeding import randomly_embedding
 
 import torch
 import torch.nn as nn

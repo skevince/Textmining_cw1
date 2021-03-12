@@ -1,0 +1,546 @@
+enty:animal animals live longest without food 
+desc:desc happened pepsi clear 
+enty:veh ill-fated craft captained ernst lehmann 
+desc:def cabarnet sauvignon 
+num:period long pay back debt claiming chapter 11 bankruptcy 
+desc:manner people ireland come u.s. work ireland 
+enty:animal kind animal babar 
+enty:other kind education need become athletic trainer nfl 
+hum:ind director made one silent one sound version ten commandments 
+desc:desc origin term blue moon often occur 
+loc:other get u.s. economic statistics 
+enty:substance substance gives food taste eaten 
+hum:ind authors 
+num:speed fast must spacecraft travel escape earth gravity 
+abbr:abb abbreviation international olympic committee 
+desc:manner know jealous someone 
+num:perc probability least 2 25 people will birthday 
+enty:cremat 2 statues france give countries 
+num:date oscars academy awards 1999 
+loc:other woodstock take place 
+num:money much president get paid 
+loc:other natural attractions draw visitors united states 
+num:count american dollar equivalent 8 pounds u.k. 
+enty:dismed fear drinking 
+enty:cremat most-used computer program 
+loc:country country boasts southernmost point continental europe 
+enty:animal kind dog scooby doo 
+hum:gr name pittsburgh baseball team 
+num:count many rows sprocket holes roll 35-millimeter film 
+hum:ind gave abbie hoffman first dose lsd 
+loc:other quality drinks begin 
+enty:dismed fear alone 
+enty:product product mrs. olsen promote 
+hum:ind french designer declared jean destructor dictator destroying creativity. jean must stopped 
+desc:reason called hamburger ham 
+loc:country country ileana cotrubas come 
+desc:desc difference bottle jar 
+desc:manner find allowed claim contibution income tax purposes 
+loc:other get title 
+desc:manner wasps make nests 
+num:dist long world largest ship meters 
+hum:ind wrote poems made fools like god make tree 
+loc:other bocci originate 
+enty:product kind suit true hepcats wear 1942 
+enty:termeq darning needles horse stingers better known 
+hum:ind found hawaii 
+enty:substance main ingredient yogurt 
+num:date year avery dennison company founded 
+abbr:exp ibm stand 
+desc:def extended definition mean one write paper 
+desc:desc origin u.s. army sergeant stripes 
+desc:desc origin word ozymandias 
+num:count many layers yellow paint faber mongol pencil lucky enough sprayed 
+desc:desc proper laugh-in respones say goodnight dick 
+num:count many cities utah 
+loc:other famed wall supports badaling turret 
+desc:reason causes rust 
+desc:def palindromic mean 
+desc:manner find area circle 
+enty:color color arctic fox winter 
+enty:cremat british tv series featured emma peel 
+loc:country country visiting land president duvalier airport 
+hum:ind dick tracy villain appear three times 
+hum:desc maria theresa 
+num:money average cost four years medical school 
+enty:animal name betty boop dog 
+enty:body part body contains corpus callosum 
+loc:country european country abandoned postage stamps 1923 printing cost face value 
+hum:ind two historical figures fought famous battle food named 
+desc:manner start web based business 
+desc:reason microsoft windows 3 successful computer program 
+desc:def storm wave mean japanese 
+num:date first stained glass window made 
+enty:other communications satellites offer yachts 
+desc:manner stop junk snail mail 
+num:date year new zealand excluded anzus alliance 
+hum:ind thatcher first name 
+hum:ind became president u.s. 1789 
+enty:cremat tv station mary richards work 
+hum:ind british female pop singing star 1960s early 1970s child actress 1940s '50s 
+loc:country name country hitler ruled 
+desc:reason say children cough syrup drive using medication 
+hum:gr manufacturers texas 
+hum:ind appointed chair federal reserve 
+loc:city city logan airport 
+enty:techmeth formula calculate pi 
+enty:dismed fear pregnancy 
+enty:other powerful card euchre 
+loc:mount world highest peak 
+num:money much will gas taxed california year 2000 
+desc:def barnstorming 
+desc:desc root evil 
+desc:def borrow pit 
+hum:ind portrayed man without face movie name 
+loc:other botanical marvel nebuchadnezzar build 
+enty:other device provided new way listen music 1963 
+num:date mount st. helen last significant eruption 
+hum:ind sexy celebrity 
+desc:desc happened moon maiden 
+loc:city city us declaration independence located 
+num:money much minimum wage amount 1991 
+desc:def literal meaning d-day 
+enty:cremat film louise fletcher win best actress oscar 
+loc:other california bay largest island angel island 
+hum:ind author john brown body 
+desc:reason jane goodall famous 
+num:count many films made major studios year 
+num:other death toll people dying tuberculosis 
+desc:manner new ford econoline van f25 v1 engine 
+desc:manner e-mail someone aol.com yahoo.com 
+loc:state state full milk honey destination grapes wrath 
+abbr:exp ram computer 
+enty:color two colors blind suffer protanopia 
+enty:food spice chefs pay 
+loc:country country largest diamond producer 
+num:count many feet 2 average height great wall china 
+loc:other first restaurant 
+loc:country country boasts ismail palace palace king farouk 
+hum:ind name tom sawyer aunt lives 
+num:count estimated total u.s. whitetail deer population 
+desc:manner names come 
+num:count many species great white shark 
+num:date art quilting begin 
+desc:def color 
+loc:other web address list e-mail addresses members house representatives 
+desc:def nuclear proliferation 
+num:period old george washington died 
+loc:country country allowed drive israel 1979 
+desc:reason word abbreviation long 
+num:count much caffeine 16 oz cup coffee 
+hum:ind mayor marbella 
+num:money current ticket fare cairo barbados 
+enty:other determines value pearl 
+hum:ind delivered last newscast march 6 1981 
+loc:other zebras likely found 
+num:money much lucy van pelt originally charge psychiatric sessions 
+num:date first successful heart transplant human 
+num:count many innings constitute official baseball game 
+enty:product soap touted people like people 
+enty:cremat oldtime kids fare tv guide writer jeff greenfield call one most...subversive tv shows american history 
+desc:def alveoli 
+hum:ind following people associated andy warhol 
+hum:ind six-foot temperance advocate wielded hatchet saloons 
+num:period long cardinal eggs incubate 
+loc:country country capital lagos 
+enty:other name peace agreement imposed germany world war 
+hum:ind part john peter zenger play deveopment newspaper america 
+desc:desc difference college graduate school 
+hum:ind u.s. general died december 1 1945 jeep collided truck 
+desc:manner one correctly pronounce qigong 
+hum:ind premier china 
+num:date year montana become state 
+num:money average daycare provider get paid new england 
+loc:other river runs liverpool 
+desc:def virtual ip address 
+enty:termeq name clouds produce rain 
+hum:ind worst us president ever 
+enty:cremat tv series saw many aquatic scenes shot silver springs florida 
+enty:other developed crack 1835 tolling death u.s. chief justice john marshall 
+num:count many people died smoking problem 1997 
+loc:city south american capital world highest 
+loc:country nationality jackson pollock 
+desc:manner effective condoms protecting aids 
+enty:animal name two mystical ravens odin command 
+enty:other one thing need purchase life insurance 
+num:perc percentage american men alcoholic 
+enty:cremat broadway show introduced song enchanted evening 
+loc:city capital california 
+hum:ind two presidents u.s. published books poetry 
+loc:other tokyo street glitters famed department stores nightclubs 
+num:count many times larger life size statue liberty 
+loc:other leading medical groups specializing lung diseases 
+desc:def bone marrow transplant meant 
+loc:city north american city sprouts parking meters 
+enty:food recipe eggs benedict 
+hum:ind whose first presidential order let get goddamn thing airborne 
+desc:desc need take dog live dominica west indies year 
+hum:ind created world wide web www 
+desc:reason ask check bill restaurant 
+desc:desc steps taken prevent diabetes 
+num:volsize big baby bald eagle 
+loc:city city mormons establish headquarters 1847 
+enty:veh ship lloyd m. bucher command 
+hum:gr police department made all-time biggest cocaine bust ventura county 
+loc:country country king wenceslas rule 
+desc:desc daily requirement folic acid expectant mother 
+desc:manner silk screening done 
+num:count many people live chile 
+enty:other overalls named dungri suburb bombay 
+num:count many months normal human pregnancy last 
+num:period long take blood make one complete trip body 
+desc:def cat scratch fever 
+loc:other us federal government website standard industrial classification codes sic 
+enty:food traditional drink kentucky derby 
+loc:state southern states united states 
+enty:food 55 times sweeter cane sugar 
+hum:gr company sells greeting cards 
+desc:def leper 
+desc:desc origin expression tout de suite 
+enty:cremat magazine gives us cream skim 
+enty:other damage business government caused bureaucracy 
+desc:desc diamond lump coal common 
+loc:other erykah badu originally 
+enty:sport card game variations called canfield klondike spider 
+hum:ind developed first polio vaccine 
+num:dist deep fathom 
+loc:country country saw origin asian flu 
+num:count many electoral votes take win presidency 
+enty:other philatelist collect 
+loc:other find fifth element screensaver 
+loc:country country best defensive position board game diplomacy 
+desc:desc main application sodium hydrosulfite 
+loc:other danube 
+num:count many attendance last supper 
+desc:manner use intranet 
+desc:desc origin word attic 
+hum:gr u.s. university boasts largest library 
+enty:cremat tv game show saw contestant admit picking toes shower 
+hum:ind name various costumed personas dr. henry pym 
+loc:state state mark twain national forests 
+num:money joe namath first contract worth 
+loc:country country nile river originate 
+enty:food vegetable starts z 
+desc:def melissa mean 
+enty:cremat tale moral wants everything gets nothing 
+num:period long shea gould practice law los angeles 
+desc:def jake brake 
+num:speed fast fastest car go 
+num:count many freckles howdy doody face 
+hum:gr culture developed idea potlatch 
+loc:other common street name america 
+desc:desc weather like moon 
+loc:city russian city boasts hermitage museum 
+enty:other shape-shifting menace rom come earth fight 
+enty:cremat daily newspaper will help see clearer across usa 
+hum:gr name confederate mounted guerrilla group jesse james coleman younger ridden 
+desc:desc excuse nato people give hitting chinese embassy 
+enty:product garment named bradley voorhees day 
+hum:title nicholas cage occupation 
+hum:ind karenna gore al gore oldest daughter married 
+loc:other bulls basketball team based 
+loc:other city state gay men live 
+hum:gr top ten all-time money making nfl teams 
+desc:manner tradition best man start 
+loc:state mississippi name state nickname 
+abbr:exp word laser mean 
+enty:product name computer 2001 space odyssey 
+hum:ind led normans victory battle hastings 
+desc:desc difference microprocessors microcontrollers 
+hum:ind released internet worm late 1980s 
+enty:product product ads claim eliminates odors kills household germs mold mildew 
+hum:gr major league baseball team pittsburgh called 
+hum:gr cigarette company urged us come flavor 
+desc:def archy mehitabel 
+desc:manner hurricane form 
+num:count many fig newtons pound 
+enty:product product doubles pleasure doubles fun 
+loc:city city graced arch titus 
+loc:other official zero sea level 
+enty:veh name u.s. navy gunboat film sand pebbles 
+loc:other park contains firehole river fairy falls 
+enty:product brand white rum still made cuba 
+num:period long longest hiccup attack 
+hum:ind sara jane moore try assassinate 
+desc:def bellworts 
+num:count u.s. highway death toll 1969 
+enty:other generation 
+desc:desc richard feynman say upon hearing receive nobel prize physics 
+desc:manner rainbow form 
+enty:product product market good hiding facial scars 
+desc:desc secret universe 
+hum:ind scottish poet penned mouse louse 
+num:money much drugs treat tuberculosis cost 
+enty:dismed fear machinery 
+num:date french revolutionaries storm bastille 
+num:count many different kinds ice cream 
+desc:def false consciousness 
+hum:gr college produced winning super bowl quarterbacks 
+num:count number assassinations attempts assassinate u.s. since 1865 
+enty:other kind weapons used medieval warfare 
+desc:reason shea gould law firm leave los angeles 
+hum:ind cigar-chewing comedian observed 're old woman feel 
+num:count many stars soviet union flag 
+loc:city capital built around monument circle contains soldiers sailors monument 
+enty:cremat newspaper serves salt lake city 
+hum:ind silly putty invented 
+desc:reason zipper invented 
+hum:gr produces spumante 
+num:date day week july 13 
+num:date year berlin wall erected 
+loc:country country largest country latin america 
+num:count many people captain america 
+loc:other orinoco 
+hum:ind darth vader son 
+num:volsize big electoral college 
+enty:cremat name salt lake city newspaper 
+desc:def boston kreme 
+desc:def name anthony mean 
+loc:other u.s. headquarters procter gamble 
+hum:ind nazi leader killed jail just executed war criminal 
+hum:gr name football new york titans adopt 1963 
+desc:desc importance magellan 
+num:count many people died south carolina highways 1998 
+num:money much money minimum wage 1991 
+enty:dismed infectious disease world deadliest 
+hum:ind president serve two nonconsecutive terms 
+desc:def saltpeter 
+loc:other one great lakes entirely within u.s. territory 
+hum:gr won super bowls 
+num:count many queen bees reign hive 
+desc:def faults earth crust 
+hum:ind president favorite biblical quotation come now let us reason together 
+desc:manner food color affect think will taste 
+desc:desc happen canada quebec separated 
+hum:ind considered first lady american stage 
+hum:ind radio tv movie character jackie gleason william bendix play 
+loc:other stadium miami dolphins play home games 
+enty:cremat movie steven spielberg direct 1975 
+desc:reason cushman wakefield known 
+desc:def hyperlink 
+abbr:abb abbreviated form national bureau investigation 
+hum:ind woman time man year 1952 
+num:date year setting american graffiti 
+hum:ind comedienne upstaged dwight d. eisenhower first inauguration giving birth first child 
+hum:gr company markets shampoo brunettes 
+desc:def multiplexer 
+desc:reason several san diego schools stop serving apples students 
+enty:food name soft drink number one sun 
+desc:desc new postal world 1999 
+enty:cremat cbs soap opera interrupted bulletin john f. kennedy assassination 
+loc:state state 11 million gallon oil spill 
+enty:veh names u.s. navy aircraft carriers 
+desc:reason organ transplants successful today 
+desc:reason caused lynmouth floods 
+enty:other greatest source white magic marvel universe 
+desc:def word opera mean 
+desc:def definition chancery file real estate 
+desc:def angelus 
+loc:other building built 18 contains 327 miles book shelves 
+hum:ind diminutive american female gymnast stole show 1984 olympics 
+num:date china first nuclear test 
+loc:city asian city boasts world biggest bowling alley 
+enty:cremat late-night tv show features larry bud melman toast stick 
+hum:ind woman pitcher struck ted williams hank aaron 
+loc:other americas 47 miles atlantic pacific 
+hum:ind nickname frederick holy roman emperor king germany 
+hum:ind chief engineer starship enterprise 
+desc:manner select wine 
+hum:ind wrote lyrics porgy bess 
+loc:city city mccarren airport serve 
+enty:substance common elements seawater 
+desc:manner find balance social security account 
+enty:substance explosive get mixing charcoal sulfur saltpeter 
+num:count many people taller 7 feet 
+desc:manner raise iq 
+hum:ind first woman fly solo across atlantic 
+loc:other 49 steps 
+hum:gr university fired angela davis 
+hum:ind wrote song silent night 
+desc:reason anglican church split vatican 
+loc:other ocean titanic sink 
+hum:gr court bob woodward describe brethren 
+hum:ind banned peter rose baseball betting games 
+desc:manner get rust stains clothing 
+num:period life span average monkey 
+num:count many meters mile 
+desc:manner cologne made 
+num:period long cocaine stay system 
+num:date nostradamus believe world war iii begin 
+loc:city city sometimes called gotham 
+enty:substance chemicals used glowsticks 
+loc:country country lies directly south detroit 
+enty:other bottled jeroboams 
+hum:ind played games new york yankees 
+enty:dismed fear food 
+desc:reason chickenpoxs last long 
+desc:def inkhorn terms 
+hum:ind served inspiration schoolteacher portrayed robin williams dead poets society 
+desc:manner nintendo zapper work 
+enty:body leg cat move left front leg walking left rear right rear leg 
+num:count goat population world 
+hum:gr university woodrow wilson president 
+loc:city city served logan international airport 
+loc:other part africa mozambique located 
+desc:desc origin christmas tree 
+hum:ind first taiwanese president 
+loc:other hillary clinton graduate college 
+num:date year vietnam war end 
+desc:desc origin city corpus christi 
+num:count many feet long baseball pitcher rubber 
+hum:ind two inventors invented post-its 
+desc:def georgetown hoya mean 
+hum:ind won 1968 california democratic primary 
+hum:ind actress received oscar nominations 
+hum:ind top ten common girl names us 
+hum:gr army founded william booth wife catherine 
+loc:city european city nicois live 
+num:date first barbie produced 
+desc:reason colin powell best known achievement 
+desc:def name shawn mean 
+hum:ind name first private citizen fly space 
+enty:sport card game derived name biritch russian whist 
+enty:plant plants found estuary 
+desc:desc origin midwest slang 're darn tootin 
+enty:color color eight-ball pocket billiards 
+desc:manner psorisis disappear 
+num:money much new railroad coal car cost 
+enty:other humans catch zoonose diseases 
+desc:manner gain access spy satelite 
+loc:other tennis star stefan edberg come 
+enty:cremat name book written aaron hass 
+desc:def dextropropoxyphen napsylate 
+desc:reason europeans first come australia oceania 
+num:count many dots make symbol 
+hum:ind pride yankees 
+desc:desc differences 1980 1990 
+enty:substance materials three little pigs use build houses 
+enty:product shampoo prevents eczema seborrhea psoriasis 
+num:count many logarithmic scales slide rule 
+loc:country country declared one-fifth territory off-limits russians 
+num:period long take travel tokyo niigata 
+hum:ind honeymooners actress television magazine name 1953 promising star 
+loc:city southern california town named character made famous edgar rice burroughs 
+loc:country country biggest producer tungsten 
+loc:other constellation represents hunter club shield 
+num:count many days typical mayfly live 
+desc:reason makes popcorn pop 
+num:weight many pounds stone 
+desc:desc happened dogtown 1899 make year remembered 
+hum:ind name designer shoe spawned millions plastic imitations known jellies 
+num:count many calories glass water 
+enty:cremat kevin costner movie sioux indians play role 
+hum:ind owns rights tv program 
+loc:other individual get contact lens tested burned entire surface eye new 
+enty:food cocktail inspired john doxat write book stirred-not shaken 
+enty:substance four elements make 90 percent human body 
+desc:def golden rule 
+hum:ind played chicago bears houston oilers oakland raiders 26-year pro football career 
+loc:other mythology websites 
+enty:other goldfish lose kept dimly-lit running water 
+desc:desc origin term soda jerk 
+num:count many cards dealt player gin rummy 
+num:dist world record longest hair 
+loc:country country flag field green 
+hum:ind father computer 
+enty:other millions kids wearing heads 1955 
+num:count many zip codes u.s. 
+hum:ind name american swimmer won seven gold medals 1972 olympics 
+hum:ind invented make-up 
+num:period old jeremy piven 
+enty:cremat homerian epic chronicles events toward end trojan wars 
+hum:ind best known villain 165 gunpowder plot 
+hum:ind actor world war ii airman $5 0 bounty put head hermann goering 
+enty:termeq name given islamic counterpart red cross 
+desc:def theory quantum leaps mean simpler terms 
+loc:other island target u.s. operation urgent fury 
+desc:manner saline used medicine 
+enty:cremat name song dracula plays organ 
+loc:other famed strip land 15-minute boat trip across venetian lagoon venice 
+num:date year jack nicklaus join professional golfers association tour 
+enty:product product william horlick discover produce 
+num:count many south american countries letter z names 
+enty:termeq playboy title continuing dialog contemporary issues playboy readers 
+num:weight recommended weight 15 year-old male 5 6 
+desc:def caul 
+enty:sport dwight eisenhower favorite card game 
+desc:reason 12 people jury criminal cases 
+desc:desc living conditions cuba 
+num:date nixon visit china 
+hum:ind lawyer represented randy craft name 
+desc:manner hydrogen bomb different nuclear bomb 
+desc:desc distinction erle stanley gardner case terrified typist 
+desc:def sound 
+num:count many calories soy sauce 
+num:count much will california year 2000 
+abbr:exp channel espn stand 
+enty:techmeth ways ivan iv support russian expansion 
+desc:reason proud claim fame young women formed kappa alpha theta 
+desc:desc happened pompeii 
+num:date spielberg direct jaws 
+loc:other get complete listing showtimes area 
+hum:ind hitler minister propaganda 
+desc:reason colin powell famous 
+hum:gr businesses agencies employment verification 
+loc:other lake scotland said hold one monsters 
+loc:state u.s. state biggest lake lake sam rayburn 
+loc:other former royal palace served granary prison arsenal leper colony mint telegraph station whorehouse becoming art museum 
+hum:gr yankee frequent enemies 
+enty:cremat program need run .tbk file 
+hum:desc zebulon pike 
+desc:def definition spamming 
+loc:other county eckley colorado 
+loc:other name temple located near capital city laos 
+desc:manner people respond idea first millenium 
+desc:reason say god bless people sneeze 
+loc:other isle man 
+enty:other dan aykroyd john belushi quit saturday night live become 
+enty:sport sport free-legged pacer compete 
+abbr:exp acronym cpr mean 
+hum:ind directed first woody woodpecker cartoon 
+desc:desc indian pudding come 
+desc:manner pronounce tzimisce 
+loc:country nationality ileana cotrubas 
+hum:ind person called likes fire 
+enty:sport baseball outcome required nine balls 1879 eight balls 1880 seven balls 1881 
+num:dist far human eye see 
+hum:ind said old soldiers never die just fade away 
+enty:dismed fear night darkness 
+loc:other qatar 
+enty:termeq term describes word one usage recorded literature 
+loc:country three european countries begin letter 
+hum:ind second person ever wear iron man armor 
+loc:other find review nightmare elm street film journal 
+enty:termeq operating system runs ibm-compatible machines called 
+desc:manner write congressman 
+enty:event trials resulting world war ii known 
+desc:manner make fuel bricks recycled newspaper 
+loc:other mccarren airport located 
+num:date berlin wall erected 
+desc:reason makes hamburgers taste like steakburgers 
+hum:ind name managing director apricot computer 
+num:date first steel mill united states built 
+loc:other address main government office rome italy 
+enty:other november birthstone 
+num:count many thousands students attend university massachusetts 
+desc:def pasta 
+desc:desc choo choo charlie say 
+num:count pig population world 
+num:count many jews executed concentration camps wwii 
+num:period gestation period human pregnancies 
+enty:animal dumbest domesticated animal 
+desc:manner elongated man know mystery afoot 
+hum:ind russian composer prelude c sharp minor brought fame fortune 
+num:date florida admitted union 
+hum:ind former major-league left-handed baseball pitcher known space man 
+enty:color color stripe along side coho salmon 
+loc:other great educational resources parents teachers 
+hum:ind middle name movie producer joseph e. levine 
+enty:animal kind species monster film jaws 
+hum:ind non-conformist abstract painter dubbed jack dripper time 
+hum:desc charles lindbergh 
+enty:other types water pollution 
+desc:reason people two different color eyes 
+loc:country country world largest importer cognac 
+desc:manner months year get name 
+desc:def executor will 

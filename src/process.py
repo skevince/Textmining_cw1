@@ -1,14 +1,6 @@
-from src.question_classifier import get_config
+import question_classifier
 
-import argparse
-
-parser = argparse.ArgumentParser(description='manual to this script')
-parser.add_argument('--config', help='The path of the configuration file',type=str, default='../data/Bag_of_words.config')
-parser.add_argument("--train", help="To train the model", action="store_true")
-parser.add_argument("--test", help="To test the model", action="store_true")
-
-path_stopwords = get_config('PATH','path_stopwords')
-print(path_stopwords)
+path_stopwords = question_classifier.get_config('PATH','path_stopwords')
 
 
 def processfile (filename,outfilename):
