@@ -1,13 +1,10 @@
 import re
-import numpy as np
-import random
 import question_classifier
 
-np.set_printoptions(threshold=np.inf)
 
-
+# clean stop words
 def clean_stopwords(sentence):
-    path_stopwords = question_classifier.get_config('PATH','path_stopwords')
+    path_stopwords = question_classifier.get_config('PATH', 'path_stopwords')
     new_sentence = sentence
     stopwords = set()
     with open(path_stopwords, 'r') as f:
@@ -24,6 +21,7 @@ def clean_stopwords(sentence):
     return new_sentence
 
 
+# get wordlist and vocabulary of random initialization
 def randomly_embedding(filepath):
     wordlist = []
     vocabulary = []
@@ -38,6 +36,7 @@ def randomly_embedding(filepath):
                     word_statistic[word] = 1
     for word in word_statistic:
         wordlist.append(word)
+        # if a word appear over 8 times, add it into vocabulary
         if word_statistic[word] > 10:
             vocabulary.append(word)
     vocabulary.append('PAD')

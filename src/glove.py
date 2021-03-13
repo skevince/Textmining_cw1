@@ -2,7 +2,7 @@ import torch
 import numpy as np
 
 
-
+# read glove file
 def read_glove_vecs(glove_file):
     with open(glove_file, 'r', encoding='utf-8') as f:
         words = []
@@ -16,4 +16,5 @@ def read_glove_vecs(glove_file):
             words.append(curr_word)
             word_to_vec_map[curr_word] = np.array(line[1:], dtype=np.float64)
     lowerwords = [x.lower() for x in words]
+    # return word list and glove vector
     return lowerwords, torch.FloatTensor(glove_vector)

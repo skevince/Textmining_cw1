@@ -1,500 +1,500 @@
-num:dist far denver aspen 
-loc:city county modesto california 
-hum:desc galileo 
-desc:def atom 
-num:date hawaii become state 
-num:dist tall sears building 
-hum:gr george bush purchased small interest baseball team 
-enty:plant australia national flower 
-desc:reason moon turn orange 
-desc:def autism 
-loc:city city world fair 1900 
-hum:ind person head dime 
-num:weight average weight yellow labrador 
-hum:ind first man fly across pacific ocean 
-num:date idaho become state 
-num:other life expectancy crickets 
-enty:substance metal highest melting point 
-hum:ind developed vaccination polio 
-desc:def epilepsy 
-num:date year titanic sink 
-hum:ind first american walk space 
-desc:def biosphere 
-loc:other river us known big muddy 
-desc:def bipolar disorder 
-desc:def cholesterol 
-hum:ind developed macintosh computer 
-desc:def caffeine 
-loc:other imaginary line halfway north south poles 
-loc:other john wayne airport 
-loc:other hemisphere philippines 
-num:speed average speed horses kentucky derby 
-loc:mount rocky mountains 
-desc:def invertebrates 
-num:temp temperature center earth 
-num:date john f. kennedy get elected president 
-num:period old elvis presley died 
-loc:other orinoco river 
-num:dist far service line net tennis 
-num:count much fiber per day 
-num:count many great lakes 
-enty:plant material called linen made plant 
-desc:def teflon 
-desc:def amitriptyline 
-desc:def shaman 
-enty:animal proper name female walrus 
-enty:animal group turkeys called 
-num:period long rip van winkle sleep 
-desc:def triglycerides 
-num:count many liters gallon 
-hum:gr name chocolate company san francisco 
-desc:def amphibians 
-hum:ind discovered x-rays 
-hum:ind comedian signature line talk 
-desc:def fibromyalgia 
-desc:desc done worn outdated flags 
-desc:def cc engines mean 
-num:date elvis presley die 
-loc:city capital yugoslavia 
-loc:city milan 
-num:speed speed hummingbirds fly 
-loc:city oldest city united states 
-hum:ind w.c. fields real name 
-loc:other river flows fargo north dakota moorhead minnesota 
-enty:food bats eat 
-loc:state state battle bighorn take place 
-hum:desc abraham lincoln 
-enty:termeq call newborn kangaroo 
-desc:def spider veins 
-num:date day month john lennon die 
-loc:other strait separates north america asia 
-num:other population seattle 
-num:money much ticket titanic 
-loc:city largest city world 
-hum:ind american composer wrote music west side story 
-loc:other mall america 
-desc:def ph scale 
-enty:currency type currency used australia 
-num:dist tall gateway arch st. louis mo 
-num:weight much human adult female brain weigh 
-hum:ind first governor alaska 
-desc:def prism 
-num:date first liver transplant 
-hum:ind elected president south africa 1994 
-num:other population china 
-num:date rosa parks born 
-desc:reason ladybug helpful 
-desc:def amoxicillin 
-hum:ind first female united states representative 
-desc:def xerophytes 
-loc:country country ponce de leon come 
-enty:event u.s. department treasury first issued paper currency u.s. war 
-desc:def desktop publishing 
-num:temp temperature sun surface 
-num:date year canada join united nations 
-hum:gr oldest university us 
-loc:other prince edward island 
-num:date mercury year discovered 
-desc:def cryogenics 
-desc:def coral reefs 
-enty:other longest major league baseball-winning streak 
-desc:def neurology 
-hum:ind invented calculator 
-desc:manner measure earthquakes 
-hum:desc duke ellington 
-loc:city county phoenix az 
-desc:def micron 
-num:temp sun core temperature 
-enty:animal ohio state bird 
-num:date william shakespeare twins born 
-loc:other highest dam u.s. 
-enty:color color poison arrow frog 
-desc:def acupuncture 
-num:dist length coastline state alaska 
-hum:ind name neil armstrong wife 
-enty:plant hawaii state flower 
-hum:ind won ms. american 1989 
-num:date hindenberg crash 
-enty:substance mineral helps prevent osteoporosis 
-num:date last year chicago cubs won world series 
-loc:other perth 
-num:date year wwii begin 
-num:dist diameter golf ball 
-desc:def eclipse 
-hum:ind discovered america 
-num:dist earth diameter 
-hum:ind president unmarried 
-num:dist wide milky way galaxy 
-num:date season thunderstorms occur 
-desc:def wimbledon 
-num:period gestation period cat 
-num:dist far nautical mile 
-hum:ind abolitionist led raid harper ferry 1859 
-desc:def target heart rate mean 
-enty:product first satellite go space 
-desc:def foreclosure 
-enty:other major fault line near kentucky 
-loc:other holland tunnel 
-hum:ind wrote hymn amazing grace 
-hum:title position willie davis play baseball 
-desc:def platelets 
-desc:def severance pay 
-enty:animal name roy roger dog 
-loc:other national archives 
-enty:animal baby turkey called 
-desc:def poliomyelitis 
-enty:body longest bone human body 
-hum:ind german philosopher 
-enty:veh christopher columbus three ships 
-desc:def phi beta kappa mean 
-desc:def nicotine 
-enty:termeq another name vitamin b1 
-hum:ind discovered radium 
-desc:def sunspots 
-num:date algeria colonized 
-hum:gr baseball team first make numbers part uniform 
-loc:other continent egypt 
-loc:city capital mongolia 
-desc:def nanotechnology 
-loc:other late 1700 british convicts used populate colony 
-loc:state state geographic center lower 48 states 
-desc:def obtuse angle 
-desc:def polymers 
-num:date hurricane season caribbean 
-loc:other volcano mauna loa 
-enty:termeq another astronomic term northern lights 
-loc:other peninsula spain part 
-num:date lyndon b. johnson born 
-desc:def acetaminophen 
-loc:state state least amount rain per year 
-hum:ind founded american red cross 
-num:date year milwaukee braves become atlanta braves 
-num:speed fast alcohol absorbed 
-num:date summer solstice 
-desc:def supernova 
-loc:other shawnee national forest 
-loc:state u.s. state motto live free die 
-loc:other lourve 
-num:date first stamp issued 
-enty:color primary colors mix make orange 
-num:dist far pluto sun 
-loc:other body water canary islands 
-desc:def neuropathy 
-loc:other euphrates river 
-desc:def cryptography 
-enty:substance natural gas composed 
-hum:ind prime minister canada 
-hum:ind french ruler defeated battle waterloo 
-desc:def leukemia 
-loc:other howard hughes die 
-enty:substance birthstone june 
-enty:other sales tax minnesota 
-num:dist distance miles earth sun 
-num:period average life span chicken 
-num:date first wal-mart store opened 
-desc:def relative humidity 
-loc:city city zip code 35824 
-enty:currency currency used algeria 
-hum:ind invented hula hoop 
-enty:product popular toy 1957 
-enty:substance pastrami made 
-enty:product name satellite soviet union sent space 1957 
-loc:city city newspaper called enquirer 
-hum:ind invented slinky 
-enty:animal animals don 't backbones called 
-num:other melting point copper 
-loc:other volcano olympus mons located 
-hum:ind 23rd president united states 
-num:temp average body temperature 
-desc:desc defibrillator 
-desc:desc effect acid rain 
-num:date year united states abolish draft 
-num:speed fast speed light 
-loc:state province montreal 
-loc:other new york city structure also known twin towers 
-desc:def fungus 
-enty:lang frequently spoken language netherlands 
-desc:def sodium chloride 
-enty:termeq spots dominoes called 
-num:count many pounds ton 
-desc:def influenza 
-desc:def ozone depletion 
-num:date year mona lisa painted 
-desc:def sitting shiva mean 
-enty:other electrical output madrid spain 
-loc:mount mountain range north america stretches maine georgia 
-enty:substance plastic made 
-num:other population nigeria 
-desc:desc spleen 
-loc:other grand canyon 
-hum:ind invented telephone 
-num:date year u.s. buy alaska 
-hum:ind name leader ireland 
-desc:def phenylalanine 
-num:count many gallons water cubic foot 
-enty:other two houses legislative branch 
-desc:def sonar 
-loc:other poland people live 
-desc:def phosphorus 
-loc:other location sea tranquility 
-num:speed fast sound 
-loc:state french province cognac produced 
-desc:def valentine day 
-desc:reason causes gray hair 
-desc:def hypertension 
-desc:def bandwidth 
-loc:other longest suspension bridge u.s. 
-desc:def parasite 
-desc:def home equity 
-desc:desc meteorologists 
-enty:other criterion legally blind 
-hum:ind tallest man world 
-loc:city twin cities 
-enty:other edward binney howard smith invent 1903 
-enty:substance statue liberty made 
-desc:def pilates 
-loc:other planet known red planet 
-num:dist depth nile river 
-enty:termeq colorful korean traditional dress called 
-desc:def mardi gras 
-num:money mexican pesos worth u.s. dollars 
-hum:ind first african american play brooklyn dodgers 
-hum:ind first prime minister canada 
-num:count many admirals u.s. navy 
-enty:instru instrument glenn miller play 
-num:period old joan arc died 
-desc:def word fortnight mean 
-desc:def dianetics 
-loc:city capital ethiopia 
-num:period long elephant pregnant 
-desc:manner janice joplin die 
-enty:lang primary language iceland 
-desc:desc difference radio stations fm radio stations 
-desc:def osteoporosis 
-hum:ind first woman governor u.s. 
-desc:def peyote 
-desc:reason esophagus used 
-desc:def viscosity 
-num:date year oklahoma become state 
-abbr:abb abbreviation texas 
-enty:substance mirror made 
-loc:other body mortarboard worn 
-hum:ind j.f.k. wife name 
-abbr:exp i.v. stand 
-desc:def chunnel 
-loc:other hitler buried 
-desc:def antacids 
-desc:def pulmonary fibrosis 
-desc:def quaaludes 
-desc:def naproxen 
-desc:def strep throat 
-loc:city largest city u.s. 
-enty:dismed foot mouth disease 
-num:other life expectancy dollar bill 
-enty:termeq call professional map drawer 
-desc:def aborigines 
-desc:def hybridization 
-enty:color color indigo 
-num:period old order rent car italy 
-enty:other barometer measure 
-enty:color color giraffe tongue 
-abbr:exp usps stand 
-num:date year nfl go strike 
-desc:def solar wind 
-num:date date neil armstrong land moon 
-num:date hiroshima bombed 
-loc:other savannah river 
-hum:ind first woman killed vietnam war 
-loc:other planet strongest magnetic field planets 
-hum:ind governor alaska 
-num:date year mussolini seize power italy 
-loc:city capital persia 
-loc:other eiffel tower 
-num:count many hearts octopus 
-desc:def pneumonia 
-loc:other deepest lake us 
-desc:def fuel cell 
-hum:ind first u.s. president appear tv 
-loc:other little league museum 
-enty:other two types twins 
-loc:other brightest star 
-desc:def diabetes 
-num:date president kennedy shot 
-abbr:exp tmj 
-enty:color color yak milk 
-num:date date dwight d. eisenhower born 
-abbr:exp technical term isdn mean 
-desc:reason sun yellow 
-num:money conversion rate dollars pounds 
-num:date abraham lincoln born 
-desc:def milky way 
-desc:def mold 
-num:date year mozart born 
-enty:animal group frogs called 
-enty:veh name william penn ship 
-num:other melting point gold 
-loc:other street address white house 
-desc:def semolina 
-enty:food fruit melba sauce made 
-desc:def ursa major 
-num:perc percentage water content human body 
-num:weight much water weigh 
-enty:event president lyndon johnson reform program called 
-num:perc murder rate windsor ontario 
-hum:ind president serve 2 non-consecutive terms 
-num:other population australia 
-hum:ind painted ceiling sistine chapel 
+num:dist how far denver aspen 
+loc:city what county modesto california 
+hum:desc who galileo 
+desc:def what atom 
+num:date when hawaii become state 
+num:dist how tall sears building 
+hum:gr george bush purchased small interest which baseball team 
+enty:plant what australia national flower 
+desc:reason why moon turn orange 
+desc:def what autism 
+loc:city what city world fair 1900 
+hum:ind what person head dime 
+num:weight what average weight yellow labrador 
+hum:ind who first man fly across pacific ocean 
+num:date when idaho become state 
+num:other what life expectancy crickets 
+enty:substance what metal highest melting point 
+hum:ind who developed vaccination polio 
+desc:def what epilepsy 
+num:date what year titanic sink 
+hum:ind who first american walk space 
+desc:def what biosphere 
+loc:other what river us known big muddy 
+desc:def what bipolar disorder 
+desc:def what cholesterol 
+hum:ind who developed macintosh computer 
+desc:def what caffeine 
+loc:other what imaginary line halfway north south poles 
+loc:other where john wayne airport 
+loc:other what hemisphere philippines 
+num:speed what average speed horses kentucky derby 
+loc:mount where rocky mountains 
+desc:def what invertebrates 
+num:temp what temperature center earth 
+num:date when john f. kennedy get elected president 
+num:period how old elvis presley when died 
+loc:other where orinoco river 
+num:dist how far service line net tennis 
+num:count how much fiber per day 
+num:count how many great lakes 
+enty:plant material called linen made what plant 
+desc:def what teflon 
+desc:def what amitriptyline 
+desc:def what shaman 
+enty:animal what proper name female walrus 
+enty:animal what group turkeys called 
+num:period how long rip van winkle sleep 
+desc:def what triglycerides 
+num:count how many liters gallon 
+hum:gr what name chocolate company san francisco 
+desc:def what amphibians 
+hum:ind who discovered x-rays 
+hum:ind which comedian signature line talk 
+desc:def what fibromyalgia 
+desc:desc what done worn outdated flags 
+desc:def what cc engines mean 
+num:date when elvis presley die 
+loc:city what capital yugoslavia 
+loc:city where milan 
+num:speed what speed hummingbirds fly 
+loc:city what oldest city united states 
+hum:ind what w.c. fields real name 
+loc:other what river flows fargo north dakota moorhead minnesota 
+enty:food what bats eat 
+loc:state what state battle bighorn take place 
+hum:desc who abraham lincoln 
+enty:termeq what call newborn kangaroo 
+desc:def what spider veins 
+num:date what day month john lennon die 
+loc:other what strait separates north america asia 
+num:other what population seattle 
+num:money how much ticket titanic 
+loc:city what largest city world 
+hum:ind what american composer wrote music west side story 
+loc:other where mall america 
+desc:def what ph scale 
+enty:currency what type currency used australia 
+num:dist how tall gateway arch st. louis mo 
+num:weight how much human adult female brain weigh 
+hum:ind who first governor alaska 
+desc:def what prism 
+num:date when first liver transplant 
+hum:ind who elected president south africa 1994 
+num:other what population china 
+num:date when rosa parks born 
+desc:reason why ladybug helpful 
+desc:def what amoxicillin 
+hum:ind who first female united states representative 
+desc:def what xerophytes 
+loc:country what country ponce de leon come 
+enty:event u.s. department treasury first issued paper currency u.s. which war 
+desc:def what desktop publishing 
+num:temp what temperature sun surface 
+num:date what year canada join united nations 
+hum:gr what oldest university us 
+loc:other where prince edward island 
+num:date mercury what year discovered 
+desc:def what cryogenics 
+desc:def what coral reefs 
+enty:other what longest major league baseball-winning streak 
+desc:def what neurology 
+hum:ind who invented calculator 
+desc:manner how measure earthquakes 
+hum:desc who duke ellington 
+loc:city what county phoenix az 
+desc:def what micron 
+num:temp sun core what temperature 
+enty:animal what ohio state bird 
+num:date when william shakespeare twins born 
+loc:other what highest dam u.s. 
+enty:color what color poison arrow frog 
+desc:def what acupuncture 
+num:dist what length coastline state alaska 
+hum:ind what name neil armstrong wife 
+enty:plant what hawaii state flower 
+hum:ind who won ms. american 1989 
+num:date when hindenberg crash 
+enty:substance what mineral helps prevent osteoporosis 
+num:date what last year chicago cubs won world series 
+loc:other where perth 
+num:date what year wwii begin 
+num:dist what diameter golf ball 
+desc:def what eclipse 
+hum:ind who discovered america 
+num:dist what earth diameter 
+hum:ind which president unmarried 
+num:dist how wide milky way galaxy 
+num:date which season thunderstorms occur 
+desc:def what wimbledon 
+num:period what gestation period cat 
+num:dist how far nautical mile 
+hum:ind who abolitionist who led raid harper ferry 1859 
+desc:def what target heart rate mean 
+enty:product what first satellite go space 
+desc:def what foreclosure 
+enty:other what major fault line near kentucky 
+loc:other where holland tunnel 
+hum:ind who wrote hymn amazing grace 
+hum:title what position willie davis play baseball 
+desc:def what platelets 
+desc:def what severance pay 
+enty:animal what name roy roger dog 
+loc:other where national archives 
+enty:animal what baby turkey called 
+desc:def what poliomyelitis 
+enty:body what longest bone human body 
+hum:ind who german philosopher 
+enty:veh what christopher columbus three ships 
+desc:def what phi beta kappa mean 
+desc:def what nicotine 
+enty:termeq what another name vitamin b1 
+hum:ind who discovered radium 
+desc:def what sunspots 
+num:date when algeria colonized 
+hum:gr what baseball team first make numbers part uniform 
+loc:other what continent egypt 
+loc:city what capital mongolia 
+desc:def what nanotechnology 
+loc:other late 1700 british convicts used populate which colony 
+loc:state what state geographic center lower 48 states 
+desc:def what obtuse angle 
+desc:def what polymers 
+num:date when hurricane season caribbean 
+loc:other where volcano mauna loa 
+enty:termeq what another astronomic term northern lights 
+loc:other what peninsula spain part 
+num:date when lyndon b. johnson born 
+desc:def what acetaminophen 
+loc:state what state least amount rain per year 
+hum:ind who founded american red cross 
+num:date what year milwaukee braves become atlanta braves 
+num:speed how fast alcohol absorbed 
+num:date when summer solstice 
+desc:def what supernova 
+loc:other where shawnee national forest 
+loc:state what u.s. state motto live free die 
+loc:other where lourve 
+num:date when first stamp issued 
+enty:color what primary colors mix make orange 
+num:dist how far pluto sun 
+loc:other what body water canary islands 
+desc:def what neuropathy 
+loc:other where euphrates river 
+desc:def what cryptography 
+enty:substance what natural gas composed 
+hum:ind who prime minister canada 
+hum:ind what french ruler defeated battle waterloo 
+desc:def what leukemia 
+loc:other where howard hughes die 
+enty:substance what birthstone june 
+enty:other what sales tax minnesota 
+num:dist what distance miles earth sun 
+num:period what average life span chicken 
+num:date when first wal-mart store opened 
+desc:def what relative humidity 
+loc:city what city zip code 35824 
+enty:currency what currency used algeria 
+hum:ind who invented hula hoop 
+enty:product what popular toy 1957 
+enty:substance what pastrami made 
+enty:product what name satellite soviet union sent space 1957 
+loc:city what city newspaper called enquirer 
+hum:ind who invented slinky 
+enty:animal what animals don backbones called 
+num:other what melting point copper 
+loc:other where volcano olympus mons located 
+hum:ind who 23rd president united states 
+num:temp what average body temperature 
+desc:desc what defibrillator 
+desc:desc what effect acid rain 
+num:date what year united states abolish draft 
+num:speed how fast speed light 
+loc:state what province montreal 
+loc:other what new york city structure also known twin towers 
+desc:def what fungus 
+enty:lang what frequently spoken language netherlands 
+desc:def what sodium chloride 
+enty:termeq what spots dominoes called 
+num:count how many pounds ton 
+desc:def what influenza 
+desc:def what ozone depletion 
+num:date what year mona lisa painted 
+desc:def what sitting shiva mean 
+enty:other what electrical output madrid spain 
+loc:mount which mountain range north america stretches maine georgia 
+enty:substance what plastic made 
+num:other what population nigeria 
+desc:desc what spleen 
+loc:other where grand canyon 
+hum:ind who invented telephone 
+num:date what year u.s. buy alaska 
+hum:ind what name leader ireland 
+desc:def what phenylalanine 
+num:count how many gallons water cubic foot 
+enty:other what two houses legislative branch 
+desc:def what sonar 
+loc:other poland where people live 
+desc:def what phosphorus 
+loc:other what location sea tranquility 
+num:speed how fast sound 
+loc:state what french province cognac produced 
+desc:def what valentine day 
+desc:reason what causes gray hair 
+desc:def what hypertension 
+desc:def what bandwidth 
+loc:other what longest suspension bridge u.s. 
+desc:def what parasite 
+desc:def what home equity 
+desc:desc what meteorologists 
+enty:other what criterion legally blind 
+hum:ind who tallest man world 
+loc:city what twin cities 
+enty:other what edward binney howard smith invent 1903 
+enty:substance what statue liberty made 
+desc:def what pilates 
+loc:other what planet known red planet 
+num:dist what depth nile river 
+enty:termeq what colorful korean traditional dress called 
+desc:def what mardi gras 
+num:money mexican pesos worth what u.s. dollars 
+hum:ind who first african american play brooklyn dodgers 
+hum:ind who first prime minister canada 
+num:count how many admirals u.s. navy 
+enty:instru what instrument glenn miller play 
+num:period how old joan arc when died 
+desc:def what word fortnight mean 
+desc:def what dianetics 
+loc:city what capital ethiopia 
+num:period how long elephant pregnant 
+desc:manner how janice joplin die 
+enty:lang what primary language iceland 
+desc:desc what difference radio stations fm radio stations 
+desc:def what osteoporosis 
+hum:ind who first woman governor u.s. 
+desc:def what peyote 
+desc:reason what esophagus used 
+desc:def what viscosity 
+num:date what year oklahoma become state 
+abbr:abb what abbreviation texas 
+enty:substance what mirror made 
+loc:other where body mortarboard worn 
+hum:ind what j.f.k. wife name 
+abbr:exp what i.v. stand 
+desc:def what chunnel 
+loc:other where hitler buried 
+desc:def what antacids 
+desc:def what pulmonary fibrosis 
+desc:def what quaaludes 
+desc:def what naproxen 
+desc:def what strep throat 
+loc:city what largest city u.s. 
+enty:dismed what foot mouth disease 
+num:other what life expectancy dollar bill 
+enty:termeq what call professional map drawer 
+desc:def what aborigines 
+desc:def what hybridization 
+enty:color what color indigo 
+num:period how old order rent car italy 
+enty:other what barometer measure 
+enty:color what color giraffe tongue 
+abbr:exp what usps stand 
+num:date what year nfl go strike 
+desc:def what solar wind 
+num:date what date neil armstrong land moon 
+num:date when hiroshima bombed 
+loc:other where savannah river 
+hum:ind who first woman killed vietnam war 
+loc:other what planet strongest magnetic field planets 
+hum:ind who governor alaska 
+num:date what year mussolini seize power italy 
+loc:city what capital persia 
+loc:other where eiffel tower 
+num:count how many hearts octopus 
+desc:def what pneumonia 
+loc:other what deepest lake us 
+desc:def what fuel cell 
+hum:ind who first u.s. president appear tv 
+loc:other where little league museum 
+enty:other what two types twins 
+loc:other what brightest star 
+desc:def what diabetes 
+num:date when president kennedy shot 
+abbr:exp what tmj 
+enty:color what color yak milk 
+num:date what date dwight d. eisenhower born 
+abbr:exp what technical term isdn mean 
+desc:reason why sun yellow 
+num:money what conversion rate dollars pounds 
+num:date when abraham lincoln born 
+desc:def what milky way 
+desc:def what mold 
+num:date what year mozart born 
+enty:animal what group frogs called 
+enty:veh what name william penn ship 
+num:other what melting point gold 
+loc:other what street address white house 
+desc:def what semolina 
+enty:food what fruit melba sauce made 
+desc:def what ursa major 
+num:perc what percentage water content human body 
+num:weight how much water weigh 
+enty:event what president lyndon johnson reform program called 
+num:perc what murder rate windsor ontario 
+hum:ind who president serve 2 non-consecutive terms 
+num:other what population australia 
+hum:ind who painted ceiling sistine chapel 
 enty:dismed name stimulant 
-desc:desc effect volcanoes climate 
-num:date year andy griffith show begin 
-desc:def acid rain 
-num:date date mexico independence 
-loc:other location lake champlain 
-enty:plant illinois state flower 
-enty:animal maryland state bird 
-desc:def quicksilver 
-hum:ind wrote divine comedy 
-num:speed speed light 
-num:dist width football field 
-desc:reason tennis zero points called love 
-enty:animal kind dog toto wizard oz 
-desc:def thyroid 
-desc:def ciao mean 
-enty:body artery carries blue blood heart lungs 
-num:other often old faithful erupt yellowstone national park 
-desc:def acetic acid 
-num:dist elevation st. louis mo 
-enty:color color litmus paper turn comes contact strong acid 
-enty:color colors german flag 
-desc:def moulin rouge 
-loc:other soviet seaport black sea 
-num:weight atomic weight silver 
-enty:currency currency use brazil 
-desc:def pathogens 
-desc:def mad cow disease 
+desc:desc what effect volcanoes climate 
+num:date what year andy griffith show begin 
+desc:def what acid rain 
+num:date what date mexico independence 
+loc:other what location lake champlain 
+enty:plant what illinois state flower 
+enty:animal what maryland state bird 
+desc:def what quicksilver 
+hum:ind who wrote divine comedy 
+num:speed what speed light 
+num:dist what width football field 
+desc:reason why tennis zero points called love 
+enty:animal what kind dog toto wizard oz 
+desc:def what thyroid 
+desc:def what ciao mean 
+enty:body what artery carries blue blood heart lungs 
+num:other how often old faithful erupt yellowstone national park 
+desc:def what acetic acid 
+num:dist what elevation st. louis mo 
+enty:color what color litmus paper turn when comes contact strong acid 
+enty:color what colors german flag 
+desc:def what moulin rouge 
+loc:other what soviet seaport black sea 
+num:weight what atomic weight silver 
+enty:currency what currency use brazil 
+desc:def what pathogens 
+desc:def what mad cow disease 
 enty:food name food high zinc 
-num:date north carolina enter union 
-loc:other apple snails live 
-desc:def ethics 
-abbr:exp cpr stand 
-desc:def annuity 
-hum:ind killed john f. kennedy 
-hum:ind first vice president u.s. 
-enty:substance birthstone turquoise 
-hum:ind first us president ride automobile inauguration 
-num:period old youngest president united states 
-num:date ulysses s. grant born 
-desc:def muscular dystrophy 
-hum:ind lived neuschwanstein castle 
-desc:def propylene glycol 
-desc:def panic disorder 
-hum:ind invented instant polaroid camera 
-desc:def carcinogen 
-enty:animal baby lion called 
-num:other world population 
-desc:def nepotism 
-desc:def die-casting 
-desc:def myopia 
-num:other sales tax rate new york 
-num:perc developing nations comprise percentage world population 
-loc:mount fourth highest mountain world 
-hum:ind shakespeare nickname 
-enty:substance heaviest naturally occurring element 
-num:date father day 
-abbr:exp acronym nasa stand 
-num:dist long columbia river miles 
-loc:city city newspaper called star 
-desc:def carbon dioxide 
-loc:other mason/dixon line 
-num:date boston tea party 
-desc:def metabolism 
-hum:ind u.s.a. president appeared laugh-in 
-enty:substance cigarettes made 
-loc:city capital zimbabwe 
-abbr:exp nasa stand 
-enty:plant state flower michigan 
-desc:def semiconductors 
-desc:def nuclear power 
-desc:def tsunami 
-hum:ind congressman state texas armed forces committee 
-hum:ind president 1913 
-num:date first kidney transplant 
-loc:other canada two territories 
-enty:veh name plane lindbergh flew solo across atlantic 
-desc:def genocide 
-loc:other continent argentina 
-enty:other monastery raided vikings late eighth century 
-desc:def earthquake 
-loc:other tallest roller coaster located 
-desc:def enzymes 
-hum:ind discovered oxygen 
-desc:def bangers mash 
-enty:animal name given tiger louisiana state university 
-loc:other british crown jewels kept 
-hum:ind first person reach north pole 
-desc:def ulcer 
-desc:def vertigo 
-desc:def spirometer test 
-num:date official first day summer 
-abbr:exp abbreviation sos mean 
-enty:animal smallest bird britain 
-hum:ind invented trivial pursuit 
-enty:substance gasses troposphere 
-loc:country country water pollution 
-enty:animal scientific name elephant 
-hum:ind actress known role movie gypsy 
-enty:animal breed hunting dog beverly hillbillies 
-loc:other rainiest place earth 
-hum:ind first african american win nobel prize literature 
-num:date st. patrick day 
-enty:animal fdr dog name 
-enty:color colors need mixed get color pink 
-enty:sport popular sport japan 
-enty:food active ingredient baking soda 
-num:date thomas jefferson born 
-num:temp cold refrigerator 
-num:date telephone invented 
-enty:color common eye color 
-loc:other first golf course united states 
-desc:def schizophrenia 
-desc:def angiotensin 
-hum:gr jesse jackson organize 
-enty:animal new york state bird 
-loc:other national park utah 
-num:date susan b. anthony birthday 
-loc:state state find catskill mountains 
-enty:termeq call word spelled backwards forwards 
-desc:def pediatricians 
-hum:gr chain store headquartered bentonville arkansas 
-desc:def solar cells 
-desc:def compounded interest 
-desc:def capers 
-desc:def antigen 
-enty:currency currency luxembourg use 
-num:other population venezuela 
-enty:other type polymer used bulletproof vests 
-enty:currency currency argentina use 
-desc:def thermometer 
-loc:city canadian city largest population 
-enty:color color crickets 
-loc:country country gave new york statue liberty 
-enty:product name first u.s. satellite sent space 
-enty:substance precious stone form pure carbon 
-enty:substance kind gas fluorescent bulb 
-desc:def rheumatoid arthritis 
-loc:other river runs rowe italy 
-desc:def cerebral palsy 
-loc:city city also known gateway west 
-num:dist far away moon 
-enty:other source natural gas 
-enty:veh spacecraft u.s. astronaut alan shepard make historic 1961 flight 
-desc:def pectin 
-desc:def bio-diversity 
-enty:techmeth easiest way remove wallpaper 
-num:date year titanic start journey 
-num:count much apple water 
-hum:ind 22nd president us 
-enty:currency money use zambia 
-num:count many feet mile 
-enty:substance birthstone october 
-desc:def e-coli 
+num:date when north carolina enter union 
+loc:other where apple snails live 
+desc:def what ethics 
+abbr:exp what cpr stand 
+desc:def what annuity 
+hum:ind who killed john f. kennedy 
+hum:ind who first vice president u.s. 
+enty:substance what birthstone turquoise 
+hum:ind who first us president ride automobile inauguration 
+num:period how old youngest president united states 
+num:date when ulysses s. grant born 
+desc:def what muscular dystrophy 
+hum:ind who lived neuschwanstein castle 
+desc:def what propylene glycol 
+desc:def what panic disorder 
+hum:ind who invented instant polaroid camera 
+desc:def what carcinogen 
+enty:animal what baby lion called 
+num:other what world population 
+desc:def what nepotism 
+desc:def what die-casting 
+desc:def what myopia 
+num:other what sales tax rate new york 
+num:perc developing nations comprise what percentage world population 
+loc:mount what fourth highest mountain world 
+hum:ind what shakespeare nickname 
+enty:substance what heaviest naturally occurring element 
+num:date when father day 
+abbr:exp what acronym nasa stand 
+num:dist how long columbia river miles 
+loc:city what city newspaper called star 
+desc:def what carbon dioxide 
+loc:other where mason/dixon line 
+num:date when boston tea party 
+desc:def what metabolism 
+hum:ind which u.s.a. president appeared laugh-in 
+enty:substance what cigarettes made 
+loc:city what capital zimbabwe 
+abbr:exp what nasa stand 
+enty:plant what state flower michigan 
+desc:def what semiconductors 
+desc:def what nuclear power 
+desc:def what tsunami 
+hum:ind who congressman state texas armed forces committee 
+hum:ind who president 1913 
+num:date when first kidney transplant 
+loc:other what canada two territories 
+enty:veh what name plane lindbergh flew solo across atlantic 
+desc:def what genocide 
+loc:other what continent argentina 
+enty:other what monastery raided vikings late eighth century 
+desc:def what earthquake 
+loc:other where tallest roller coaster located 
+desc:def what enzymes 
+hum:ind who discovered oxygen 
+desc:def what bangers mash 
+enty:animal what name given tiger louisiana state university 
+loc:other where british crown jewels kept 
+hum:ind who first person reach north pole 
+desc:def what ulcer 
+desc:def what vertigo 
+desc:def what spirometer test 
+num:date when official first day summer 
+abbr:exp what abbreviation sos mean 
+enty:animal what smallest bird britain 
+hum:ind who invented trivial pursuit 
+enty:substance what gasses troposphere 
+loc:country which country water pollution 
+enty:animal what scientific name elephant 
+hum:ind who actress known role movie gypsy 
+enty:animal what breed hunting dog beverly hillbillies 
+loc:other what rainiest place earth 
+hum:ind who first african american win nobel prize literature 
+num:date when st. patrick day 
+enty:animal what fdr dog name 
+enty:color what colors need mixed get color pink 
+enty:sport what popular sport japan 
+enty:food what active ingredient baking soda 
+num:date when thomas jefferson born 
+num:temp how cold refrigerator 
+num:date when telephone invented 
+enty:color what common eye color 
+loc:other where first golf course united states 
+desc:def what schizophrenia 
+desc:def what angiotensin 
+hum:gr what jesse jackson organize 
+enty:animal what new york state bird 
+loc:other what national park utah 
+num:date what susan b. anthony birthday 
+loc:state which state find catskill mountains 
+enty:termeq what call word spelled backwards forwards 
+desc:def what pediatricians 
+hum:gr what chain store headquartered bentonville arkansas 
+desc:def what solar cells 
+desc:def what compounded interest 
+desc:def what capers 
+desc:def what antigen 
+enty:currency what currency luxembourg use 
+num:other what population venezuela 
+enty:other what type polymer used bulletproof vests 
+enty:currency what currency argentina use 
+desc:def what thermometer 
+loc:city what canadian city largest population 
+enty:color what color crickets 
+loc:country which country gave new york statue liberty 
+enty:product what name first u.s. satellite sent space 
+enty:substance what precious stone form pure carbon 
+enty:substance what kind gas fluorescent bulb 
+desc:def what rheumatoid arthritis 
+loc:other what river runs rowe italy 
+desc:def what cerebral palsy 
+loc:city what city also known gateway west 
+num:dist how far away moon 
+enty:other what source natural gas 
+enty:veh what spacecraft u.s. astronaut alan shepard make historic 1961 flight 
+desc:def what pectin 
+desc:def what bio-diversity 
+enty:techmeth what easiest way remove wallpaper 
+num:date what year titanic start journey 
+num:count how much apple water 
+hum:ind who 22nd president us 
+enty:currency what money use zambia 
+num:count how many feet mile 
+enty:substance what birthstone october 
+desc:def what e-coli 
