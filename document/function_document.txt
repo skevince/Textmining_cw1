@@ -1,0 +1,50 @@
+function name: utl.train()
+description: train model
+
+function name: utl.test()
+description: test model
+
+function name: utl.ensemble()
+description: test ensemble model
+
+function name: utl.bowandlstm_train()
+description: train bowandlstm model
+
+function name: utl.plot_confu_matrix()
+description: plot confusion matrix
+
+function name: glove.read_glove_vecs()
+description: read glove.small.txt , return word list and glove vector
+
+function name: process.processfile()
+description: process each dataset, such as train.txt,  sava as train_precess.txt
+
+function name: word_embeding.clean_stopwords()
+description: clean stopwords in sentence, return fresh sentence
+
+function name: randomly_embedding()
+description: get wordlist and vocabulary of random initialization
+
+function name: split_dataset.split()
+description: split train set into train and develop set
+
+function name: split_dataset.lowercase_txt()
+description: lowercase the txt
+
+function name: run.get_pad_size()
+description: get pad size
+
+function name: run.get_label_list()
+description: get label list
+
+function name: run.read_data()
+description: read data and return as tensor
+
+function name: run.build_model_and_dataset()
+description: build model and datasetloader
+
+function name: run.model_run()
+description: run model as train, develop or test
+
+function name: run.model_ensemble_run()
+description: run the ensemble model

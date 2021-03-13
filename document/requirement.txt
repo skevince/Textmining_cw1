@@ -1,0 +1,14 @@
+#Environment
+Python 3.7
+Pytorch 1.2.0
+
+
+#Library
+re
+numpy
+random
+Pytorch
+matplotlib
+argparse
+ConfigParser
+sklearn (confusion_matrix)
